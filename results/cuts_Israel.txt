@@ -1,0 +1,56 @@
+Israel → us | modo=cables | solo activos
+  corte mínimo = 4 (único)
+   - Blue  (Cyprus, France, Greece, Israel, Italy, Jordan)
+   - Exelera North  (Cyprus, Israel)
+   - Jonah  (Israel, Italy)
+   - MedNautilus Submarine System  (Cyprus, Greece, Israel, Italy, Turkey)
+  rutas disjuntas (Menger):
+   1. Israel → Blue → France → Amitie → US-Contiguous
+   2. Israel → Exelera North → Cyprus → Hawk → France → Apollo → US-Contiguous
+   3. Israel → Jonah → Italy → 2Africa → France → Dunant → US-Contiguous
+   4. Israel → MedNautilus Submarine System → Cyprus → Medusa Submarine Cable System → France → FLAG Atlantic-1 (FA-1) → US-Contiguous
+
+Israel → us | modo=stations | solo activos
+  corte mínimo = 2 (único)
+   - Tel Aviv, Israel  ⇒ cables: Blue, Israel Coasting 1 (IC-1), Jonah, MedNautilus Submarine System
+   - Tirat Carmel, Israel  ⇒ cables: Exelera North, MedNautilus Submarine System
+  rutas disjuntas (Menger):
+   1. Israel → [tel-aviv-israel] → Blue → PEACE Cable → Bifrost → US-Contiguous
+   2. Israel → [tirat-carmel-israel] → MedNautilus Submarine System → Asia Africa Europe-1 (AAE-1) → Asia-America Gateway (AAG) Cable System → US-Contiguous
+
+Israel → us | modo=sites, sitios a ≤25 km | solo activos
+  corte mínimo = 2 (único)
+   - Haifa, Israel, Tirat Carmel, Israel  ⇒ cables: Exelera North, Israel Coasting 1 (IC-1), MedNautilus Submarine System
+   - Herzeliyya, Israel, Netanya, Israel, Rishon Le’Zion, Israel, Tel Aviv, Israel  ⇒ cables: Blue, Israel Coasting 1 (IC-1), Jonah, MedNautilus Submarine System
+  rutas disjuntas (Menger):
+   1. Israel → [netanya-israel] → Blue → France → Amitie → US-Contiguous
+   2. Israel → [haifa-israel] → Exelera North → PEACE Cable → Asia-America Gateway (AAG) Cable System → US-Contiguous
+
+Israel → us | modo=external | solo activos
+  corte mínimo = 26 (NO único)
+   - 2Africa  (Angola, Bahrain, Comoros, Congo, Dem. Rep., Congo, Rep., Côte d'Ivoire, Djibouti, Egypt, …)
+   - Africa Coast to Europe (ACE)  (Benin, Côte d'Ivoire, Equatorial Guinea, France, Gabon, Gambia, Ghana, Guinea, …)
+   - Amitie  (France, US-Contiguous, United Kingdom)
+   - Apollo  (France, US-Contiguous, United Kingdom)
+   - Asia Africa Europe-1 (AAE-1)  (Cambodia, China, Djibouti, Egypt, France, Greece, India, Italy, …)
+   - Atlas Offshore  (France, Morocco)
+   - Circe South  (France, United Kingdom)
+   - CrossChannel Fibre  (France, United Kingdom)
+   - Dunant  (France, US-Contiguous)
+   - Europe India Gateway (EIG)  (Djibouti, Egypt, Gibraltar, India, Libya, Monaco, Oman, Portugal, …)
+   - FALCON  (Bahrain, Egypt, India, Iran, Iraq, Kuwait, Maldives, Oman, …)
+   - FEA  (Egypt, India, Jordan, Malaysia, Saudi Arabia, Thailand, United Arab Emirates)
+   - FLAG Atlantic-1 (FA-1)  (France, US-Contiguous, United Kingdom)
+   - High-capacity Undersea Guernsey Optical-fibre (HUGO)  (France, Guernsey, United Kingdom)
+   - IMEWE  (Egypt, France, India, Italy, Lebanon, Pakistan, Saudi Arabia, United Arab Emirates)
+   - INGRID  (France, Guernsey, Jersey)
+   - KAFOS  (Bulgaria, Romania, Turkey)
+   - Medloop  (France, Italy, Spain)
+   - Medusa Submarine Cable System  (Algeria, Cyprus, Egypt, France, Greece, Italy, Libya, Malta, …)
+   - Middle East North Africa (MENA) Cable System/Gulf Bridge International  (Egypt, Italy, Oman, Saudi Arabia)
+   - Oran-Valencia (ORVAL)  (Algeria, Spain)
+   - PEACE Cable  (Cyprus, Egypt, France, Kenya, Maldives, Malta, Oman, Pakistan, …)
+   - Q&E South  (France, United Kingdom)
+   - SEACOM/Tata TGN-Eurasia  (Djibouti, Egypt, India, Kenya, Mozambique, Saudi Arabia, South Africa, Tanzania)
+   - SeaMeWe-4  (Algeria, Bangladesh, Egypt, France, India, Italy, Malaysia, Pakistan, …)
+   - SeaMeWe-5  (Bangladesh, Djibouti, Egypt, France, Indonesia, Italy, Malaysia, Myanmar, …)

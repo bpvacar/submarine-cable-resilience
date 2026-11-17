@@ -1,0 +1,376 @@
+country,planned,cables,cables_unique,stations,stations_unique,stations_cut,sites,sites_unique,external,gap_cables_minus_sites
+Albania,False,3,True,2,False,"Durres, Albania; Seman, Albania",2,False,14.0,1
+Algeria,False,5,True,4,True,"Algiers, Algeria; Annaba, Algeria; Collo, Algeria; Oran, Algeria",4,True,38.0,1
+American Samoa,False,2,True,1,True,"Pago Pago, American Samoa",1,True,,1
+Angola,False,4,True,3,True,"Cacuaco, Angola; Luanda, Angola; Sangano, Angola",2,True,39.0,2
+Anguilla,False,1,True,1,True,"The Valley, Anguilla",1,True,10.0,0
+Antigua and Barbuda,False,3,False,2,True,"Dickenson Bay, Antigua and Barbuda; St. John’s, Antigua and Barbuda",1,True,16.0,2
+Argentina,False,5,True,1,True,"Las Toninas, Argentina",1,True,,4
+Aruba,False,2,True,2,False,"Baby Beach, Aruba; Hudishibana, Aruba",2,False,,0
+Australia,False,11,False,7,False,"Alexandria, NSW, Australia; Brookvale, NSW, Australia; Maroochydore, QLD, Australia; Oxford Falls, NSW, Australia; Paddington, NSW, Australia; Perth, WA, Australia; Sydney, NSW, Australia",3,False,,8
+Azerbaijan,False,0,True,0,True,,0,True,0.0,0
+Bahamas,False,4,False,6,False,"Boca Raton, FL, United States; Cat Island, Bahamas; Crooked Island, Bahamas; Eight-Mile Rock, Bahamas; Nassau, Bahamas; Port-au-Prince, Haiti",6,False,,-2
+Bahrain,False,5,True,3,True,"Al Hidd, Bahrain; Amwaj Island, Bahrain; Manama, Bahrain",1,True,33.0,4
+Bangladesh,False,2,True,2,True,"Cox’s Bazar, Bangladesh; Kuakata, Bangladesh",2,True,38.0,0
+Barbados,False,3,True,3,False,"Bridgetown, Barbados; Needham’s Point, Barbados; Pegwell, Barbados",1,True,16.0,2
+Belgium,False,4,True,2,False,"Bredene, Belgium; Ostend, Belgium",1,False,23.0,3
+Belize,False,1,True,1,True,"Belize City, Belize",1,True,,0
+Benin,False,3,True,1,True,"Cotonou, Benin",1,True,32.0,2
+Bermuda,False,3,True,1,True,"St. David’s, Bermuda",1,True,,2
+"Bonaire, Sint Eustatius and Saba",False,2,True,3,False,"Gallows Bay, Bonaire, Sint Eustatius and Saba; Great Level Bay, Bonaire, Sint Eustatius and Saba; North Salina, Bonaire, Sint Eustatius and Saba",3,False,8.0,-1
+Brazil,False,11,True,8,False,"Belém, Brazil; Fortaleza, Brazil; Porto Alegre, Brazil; Praia Grande, Brazil; Rio de Janeiro, Brazil; Salvador, Brazil; Santos, Brazil; São Luis, Brazil",7,False,,4
+British Indian Ocean Territory,False,1,True,1,True,"Diego Garcia, British Indian Ocean Territory",1,True,24.0,0
+Brunei,False,3,True,2,True,"Telisai, Brunei; Tungku, Brunei",2,True,,1
+Bulgaria,False,2,False,2,False,"Balchik, Bulgaria; Varna, Bulgaria",2,False,5.0,0
+Cambodia,False,2,True,1,True,"Sihanoukville, Cambodia",1,True,38.0,1
+Cameroon,False,5,False,3,True,"Douala, Cameroon; Kribi, Cameroon; Limbe, Cameroon",3,True,26.0,2
+Canada,False,7,True,8,False,"Cordova Bay, BC, Canada; Esquimalt, BC, Canada; Halifax, NS, Canada; Milton, NL, Canada; Port Alberni, BC, Canada; Prince Rupert, BC, Canada; Toronto, ON, Canada; Vancouver, BC, Canada",7,False,,0
+Cape Verde,False,3,True,1,True,"Praia, Cape Verde",1,True,28.0,2
+Cayman Islands,False,2,True,2,True,"Cayman Brac, Cayman Islands; Half Moon Bay, Cayman Islands",2,True,,0
+Chile,False,4,True,2,True,"Arica, Chile; Valparaíso, Chile",2,True,,2
+China,False,16,True,15,False,"Cape D’Aguilar, China; Chongming, China; Chung Hom Kok, China; Dadeng Island, China; Deep Water Bay, China; Fuzhou, China; Guanyin Mountain, China; Lantau Island, China; Lingang, China; Lingshui, China; Nanhui, China; Qingdao, China; Shantou, China; Tong Fuk, China; Tseung Kwan O, China",8,False,,8
+Christmas Island,False,1,True,1,True,"Flying Fish Cove, Christmas Island",1,True,33.0,0
+Cocos (Keeling) Islands,False,1,True,1,True,"West Island, Cocos (Keeling) Islands",1,True,24.0,0
+Colombia,False,7,True,5,True,"Barranquilla, Colombia; Buenaventura, Colombia; Cartagena, Colombia; Riohacha, Colombia; Schooner Bight, Colombia",5,True,,2
+Comoros,False,3,True,2,False,"Mamoudzou, Mayotte; Moroni, Comoros",2,False,33.0,1
+"Congo, Dem. Rep.",False,2,True,1,True,"Muanda, Congo, Dem. Rep.",1,True,33.0,1
+"Congo, Rep.",False,2,True,1,True,"Pointe-Noire, Congo, Rep.",1,True,33.0,1
+Cook Islands,False,1,True,2,False,"Aitutaki, Cook Islands; Rarotonga, Cook Islands",2,False,3.0,-1
+Costa Rica,False,3,True,2,True,"Puerto Limon, Costa Rica; Unqui, Costa Rica",2,True,,1
+Croatia,False,2,True,2,False,"Dubrovnik, Croatia; Umag, Croatia",2,False,14.0,0
+Cuba,False,4,True,4,False,"Cienfuegos, Cuba; Guantanamo Bay, Cuba; Santiago de Cuba, Cuba; Siboney, Cuba",3,False,,1
+Curaçao,False,5,False,2,True,"Mahuma, Curaçao; Willemstad, Curaçao",1,True,,4
+Cyprus,False,11,False,4,False,"Girne, Cyprus; Iskele, Cyprus; Pentaskhinos, Cyprus; Yeroskipos, Cyprus",4,False,38.0,7
+Côte d'Ivoire,False,6,True,1,True,"Abidjan, Côte d'Ivoire",1,True,33.0,5
+Denmark,False,9,True,8,False,"Blaabjerg, Denmark; Capri Strand, Sweden; Endrup, Denmark; Hirtshals, Denmark; Houstrup, Denmark; Kristiansand, Norway; Logi, Russia; Sylt, Germany",7,False,,2
+Djibouti,False,8,False,2,True,"Djibouti City, Djibouti; Haramous, Djibouti",1,True,38.0,7
+Dominica,False,2,True,2,True,"Canefield, Dominica; Roseau, Dominica",1,True,16.0,1
+Dominican Republic,False,7,True,5,False,"Cacique, Dominican Republic; Haina, Dominican Republic; Puerto Plata, Dominican Republic; Punta Cana, Dominican Republic; Santo Domingo, Dominican Republic",4,True,,3
+Ecuador,False,4,True,3,True,"Manta, Ecuador; Punta Carnero, Ecuador; Salinas, Ecuador",2,True,,2
+Egypt,False,16,True,7,False,"Abu Talat, Egypt; Alexandria, Egypt; Port Said, Egypt; Ras Ghareb, Egypt; Suez, Egypt; Taba, Egypt; Zafarana, Egypt",6,False,38.0,10
+Equatorial Guinea,False,2,True,3,False,"Annobon, Equatorial Guinea; Bata, Equatorial Guinea; Malabo, Equatorial Guinea",3,False,32.0,-1
+Estonia,False,7,True,3,False,"Kärdla, Estonia; Meremöisa, Estonia; Tallinn, Estonia",3,False,9.0,4
+Faroe Islands,False,2,True,2,True,"Funningsfjordur, Faroe Islands; Torshavn, Faroe Islands",2,True,23.0,0
+Fiji,False,5,False,2,True,"Savusavu, Fiji; Suva, Fiji",2,True,,3
+Finland,False,8,True,6,False,"Logi, Russia; Nothamnsbacken, Sweden; Rostock, Germany; Stavsnas, Sweden; Stockholm, Sweden; Vaasa, Finland",6,False,11.0,2
+France,False,24,False,13,False,"Ajaccio, France; Bastia, France; Bonifacio, France; Cayeux-sur-Mer, France; Lannion, France; Le Porge, France; Marseille, France; Penmarch, France; Plerin, France; Saint-Hilaire-de-Riez, France; Surville, France; Toulon, France; Veules-les-Roses, France",12,False,,12
+French Guiana,False,3,True,2,False,"Cayenne, French Guiana; Kourou, French Guiana",2,False,27.0,1
+French Polynesia,False,2,True,2,True,"Apia, Samoa; Kawaihae, HI, United States",2,True,7.0,0
+Gabon,False,4,True,1,True,"Libreville, Gabon",1,True,33.0,3
+Gambia,False,1,True,1,True,"Banjul, Gambia",1,True,32.0,0
+Georgia,False,2,False,1,True,"Poti, Georgia",1,True,4.0,1
+Germany,False,7,True,5,False,"Markgrafenheide, Germany; Puttgarden, Germany; Rostock, Germany; Sassnitz, Germany; Sylt, Germany",4,False,,3
+Ghana,False,6,True,1,True,"Accra, Ghana",1,True,33.0,5
+Gibraltar,False,1,True,1,True,"Gibraltar, Gibraltar",1,True,33.0,0
+Greece,False,10,True,7,False,"Aethos, Greece; Athens, Greece; Chania, Greece; Corfu, Greece; Kokkini, Greece; Preveza, Greece; Tympaki, Greece",5,False,38.0,5
+Greenland,False,1,True,2,False,"Nuuk, Greenland; Qaqortoq, Greenland",2,False,9.0,-1
+Grenada,False,2,True,2,True,"Kingstown, Saint Vincent and the Grenadines; Point Salines, Grenada",2,True,16.0,0
+Guadeloupe,False,3,True,4,True,"Baie-Mahault, Guadeloupe; Baillif, Guadeloupe; Jarry, Guadeloupe; Pointe-a-Pitre, Guadeloupe",1,True,16.0,2
+Guam,False,13,False,5,True,"Agat, Guam; Alupang, Guam; Piti, Guam; Tanguisson Point, Guam; Tumon Bay, Guam",1,True,,12
+Guatemala,False,4,True,2,True,"Puerto Barrios, Guatemala; Puerto San Jose, Guatemala",2,True,,2
+Guernsey,False,5,False,4,False,"Havelet Bay, Guernsey; L'Ancresse Bay, Guernsey; Pembroke, Guernsey; Saints Bay, Guernsey",1,True,33.0,4
+Guinea,False,1,True,1,True,"Conakry, Guinea",1,True,32.0,0
+Guinea-Bissau,False,1,True,1,True,"Suro, Guinea-Bissau",1,True,32.0,0
+Guyana,False,3,True,1,True,"Georgetown, Guyana",1,True,5.0,2
+Haiti,False,2,True,2,True,"Kaliko, Haiti; Port-au-Prince, Haiti",2,True,11.0,0
+Honduras,False,2,True,3,True,"Puerto Cortes, Honduras; Puerto Lempira, Honduras; Trujillo, Honduras",3,True,,-1
+Iceland,False,4,True,3,False,"Landeyjar, Iceland; Seydisfjordur, Iceland; Thorlakshofn, Iceland",3,False,25.0,1
+India,False,16,True,7,False,"Chennai, India; Digha, India; Kochi, India; Machilipatnam, India; Mumbai, India; Trivandrum, India; Tuticorine, India",7,False,38.0,9
+Indonesia,False,23,True,15,False,"Anyer, Indonesia; Batam, Indonesia; Changi North, Singapore; Dumai, Indonesia; Jakarta, Indonesia; Kauditan, Indonesia; Kuala Tungkal, Indonesia; Manado, Indonesia; Medan, Indonesia; Penarik, Indonesia; Tanah Merah, Singapore; Tanjung Pakis, Indonesia; Tanjung Pinggir, Indonesia; Terempa, Indonesia; Tuas, Singapore",11,False,,12
+Iran,False,6,True,5,True,"Bandar Abbas, Iran; Bushehr, Iran; Chabahar, Iran; Jask, Iran; Kuwait City, Kuwait",5,True,24.0,1
+Iraq,False,3,True,1,True,"Al Faw, Iraq",1,True,33.0,2
+Ireland,False,14,True,12,False,"Ballinesker, Ireland; Ballygrangans, Ireland; Clonshaugh, Ireland; Cork, Ireland; Dublin, Ireland; Galway, Ireland; Killala, Ireland; Kilmore Quay, Ireland; Lecanvey, Ireland; LoughShinny, Ireland; Lusk, Ireland; Southport, United Kingdom",7,False,,7
+Isle of Man,False,6,True,4,False,"Blackpool, United Kingdom; Groudle Bay, Isle of Man; LoughShinny, Ireland; Peel, Isle of Man",1,True,23.0,5
+Israel,False,4,True,2,True,"Tel Aviv, Israel; Tirat Carmel, Israel",2,True,26.0,2
+Italy,False,14,False,13,False,"Bahar ic-Caghaq, Malta; Bari, Italy; Catania, Italy; Corfu, Greece; Crotone, Italy; Genoa, Italy; Golfo Aranci, Italy; Mazara del Vallo, Italy; Otranto, Italy; Palermo, Italy; Rome, Italy; Santa Teresa Gallura, Italy; Savona, Italy",12,False,38.0,2
+Jamaica,False,5,False,7,False,"Bull Bay, Jamaica; Copa Club, Jamaica; Harbour View, Jamaica; Montego Bay, Jamaica; Morant Point, Jamaica; Ocho Rios, Jamaica; Port Antonio, Jamaica",5,False,,0
+Japan,False,23,False,15,False,"Ajigaura, Japan; Busan, South Korea; Chikura, Japan; Emi, Japan; Ishikari, Japan; Joetsu, Japan; Kitaibaraki, Japan; Komesu, Japan; Maruyama, Japan; Minamiboso, Japan; Shima, Japan; Takahagi, Japan; Toyohashi, Japan; Tumon Bay, Guam; Wada, Japan",10,False,,13
+Jersey,False,3,True,3,False,"Archirondel, Jersey; Greve de Lecq, Jersey; St. Ouens Bay, Jersey",1,True,33.0,2
+Jordan,False,4,True,1,True,"Aqaba, Jordan",1,True,38.0,3
+Kazakhstan,False,0,True,0,True,,0,True,0.0,0
+Kenya,False,6,True,3,False,"Mombasa, Kenya; Mtwapa, Kenya; Nyali, Kenya",1,True,38.0,5
+Kiribati,False,2,True,2,True,"Tabwakea, Kiribati; Tarawa, Kiribati",2,True,,0
+Kuwait,False,5,True,2,True,"Al Safat, Kuwait; Kuwait City, Kuwait",1,True,33.0,4
+Latvia,False,3,True,2,False,"Liepaja, Latvia; Ventspils, Latvia",2,False,9.0,1
+Lebanon,False,3,True,3,True,"Pentaskhinos, Cyprus; Tartous, Syria; Tripoli, Lebanon",3,False,32.0,0
+Liberia,False,1,True,1,True,"Monrovia, Liberia",1,True,32.0,0
+Libya,False,4,True,4,False,"Benghazi, Libya; Derna, Libya; Misuratah, Libya; Tripoli, Libya",4,False,33.0,0
+Lithuania,False,3,True,2,False,"Klaipeda, Lithuania; Sventoji, Lithuania",2,False,9.0,1
+Madagascar,False,5,True,4,True,"Fort Dauphin, Madagascar; Mahajanga, Madagascar; Toamasina, Madagascar; Toliara, Madagascar",4,True,33.0,1
+Malaysia,False,20,False,8,False,"Cherating, Malaysia; Kiamsam, Malaysia; Kuching, Malaysia; Melaka, Malaysia; Mersing, Malaysia; Morib, Malaysia; Penang, Malaysia; Rengit, Malaysia",8,False,,12
+Maldives,False,5,True,3,True,"Hulhumale, Maldives; Kulhudhufushi, Maldives; Male, Maldives",2,True,38.0,3
+Malta,False,7,True,4,False,"Bahar ic-Caghaq, Malta; Catania, Italy; Mellieha, Malta; St. Paul's Bay, Malta",1,True,38.0,6
+Marshall Islands,False,1,True,2,False,"Kwajalein, Marshall Islands; Majuro, Marshall Islands",2,False,13.0,-1
+Martinique,False,4,True,2,True,"Le Lamentin, Martinique; Schoelcher, Martinique",1,True,16.0,3
+Mauritania,False,2,True,2,True,"Nouadhibou, Mauritania; Nouakchott, Mauritania",2,True,40.0,0
+Mauritius,False,4,True,3,True,"Baie du Tombeau, Mauritius; Baie Jacotet, Mauritius; Terre Rouge, Mauritius",2,True,32.0,2
+Mayotte,False,3,False,2,False,"Kaweni, Mayotte; Mamoudzou, Mayotte",1,True,6.0,2
+Mexico,False,4,True,5,True,"Cancún, Mexico; Mazatlán, Mexico; Rosarito, Mexico; Tijuana, Mexico; Tulum, Mexico",4,True,,0
+Micronesia,False,3,False,3,False,"Kosrae, Micronesia; Magachgil, Yap, Micronesia; Pohnpei, Micronesia",3,False,,0
+Monaco,False,2,True,2,False,"Monaco, Monaco; Monte Carlo, Monaco",1,True,33.0,1
+Montserrat,False,1,True,1,True,"Bunkum Bay, Montserrat",1,True,15.0,0
+Morocco,False,6,True,5,True,"Asilah, Morocco; Casablanca, Morocco; Dakhla, Morocco; Nador, Morocco; Tétouan, Morocco",5,True,40.0,1
+Mozambique,False,4,True,3,True,"Beira, Mozambique; Maputo, Mozambique; Nacala, Mozambique",3,True,33.0,1
+Myanmar,False,3,True,2,False,"Ngwe Saung, Myanmar; Thanlyin, Myanmar",2,False,38.0,1
+Namibia,False,2,True,1,True,"Swakopmund, Namibia",1,True,20.0,1
+Nauru,False,1,True,1,True,"Yaren, Nauru",1,True,3.0,0
+Netherlands,False,10,True,7,False,"Beverwijk, Netherlands; Callantsoog, Netherlands; Domburg, Netherlands; Eemshaven, Netherlands; Ijmuiden, Netherlands; Kralendijk, Bonaire, Netherlands; Zandvoort, Netherlands",5,False,,5
+New Caledonia,False,2,True,2,False,"Noumea, New Caledonia; Suva, Fiji",2,False,11.0,0
+New Zealand,False,4,True,4,False,"Mangawhai, New Zealand; Raglan, New Zealand; Takapuna, New Zealand; Whenuapai, New Zealand",3,False,,1
+Nicaragua,False,1,True,2,True,"Bluefields, Nicaragua; Puerto Cabezas, Nicaragua",2,True,,-1
+Nigeria,False,8,False,2,True,"Kwa Ibo, Nigeria; Lagos, Nigeria",2,True,33.0,6
+Niue,False,1,True,1,True,"Alofi, Niue",1,True,3.0,0
+Northern Mariana Islands,False,3,True,3,True,"Piti, Guam; Tanguisson Point, Guam; Tinian, Northern Mariana Islands",2,False,,1
+Norway,False,8,True,6,False,"Aberdeen, United Kingdom; Capri Strand, Sweden; Kristiansand, Norway; Larvik, Norway; Lista, Norway; Stavanger, Norway",6,False,,2
+Oman,False,15,False,8,True,"Al Bustan, Oman; Al Seeb, Oman; Barka, Oman; Diba, Oman; Khasab, Oman; Muscat, Oman; Qalhat, Oman; Salalah, Oman",7,True,38.0,8
+Pakistan,False,7,True,1,True,"Karachi, Pakistan",1,True,38.0,6
+Palau,False,2,True,1,True,"Ngeremlengui, Palau",1,True,,1
+Panama,False,6,True,6,False,"Balboa, Panama; Colón, Panama; Fort Amador, Panama; Maria Chiquita, Panama; Panama City, Panama; Ustupo, Panama",3,True,,3
+Papua New Guinea,False,2,True,2,False,"Madang, Papua New Guinea; Port Moresby, Papua New Guinea",2,False,17.0,0
+Peru,False,3,True,2,True,"Lurin, Peru; Mancora, Peru",2,True,,1
+Philippines,False,14,True,9,True,"Baler, Philippines; Ballesteros, Philippines; Batangas, Philippines; Cavite, Philippines; Claveria, Philippines; Daet, Philippines; Davao, Philippines; La Union, Philippines; Nasugbu, Philippines",9,True,,5
+Poland,False,1,True,1,True,"Kołobrzeg, Poland",1,True,9.0,0
+Portugal,False,10,True,5,True,"Carcavelos, Portugal; Funchal, Portugal; Seixal, Portugal; Sesimbra, Portugal; Sines, Portugal",3,True,41.0,7
+Qatar,False,7,True,4,True,"Al Daayen, Qatar; Al-Kheesa, Qatar; Doha, Qatar; Halul Island, Qatar",3,True,38.0,4
+Romania,False,1,True,1,True,"Mangalia, Romania",1,True,5.0,0
+Russia,False,4,False,4,False,"Logi, Russia; Nahodka, Russia; Nevelsk, Russia; Poti, Georgia",4,False,29.0,0
+Réunion,False,3,True,3,True,"Le Port, Réunion; Saint Paul, Réunion; Sainte Marie, Réunion",2,True,32.0,1
+Saint Barthélemy,False,3,True,1,True,"Gustavia, Saint Barthélemy",1,True,15.0,2
+"Saint Helena, Ascension and Tristan da Cunha",False,1,True,1,True,"Rupert's Bay, Saint Helena, Ascension and Tristan da Cunha",1,True,16.0,0
+Saint Kitts and Nevis,False,3,True,2,True,"Basseterre, Saint Kitts and Nevis; Frigate Bay, Saint Kitts and Nevis",1,True,16.0,2
+Saint Lucia,False,2,True,2,True,"Castries, Saint Lucia; Rodney Bay, Saint Lucia",1,True,16.0,1
+Saint Martin,False,3,True,3,True,"Baie Longue, Saint Martin; Marigot, Saint Martin; St. Louis, Saint Martin",1,True,15.0,2
+Saint Pierre and Miquelon,False,1,True,2,False,"Miquelon-Langlade, Saint Pierre and Miquelon; Saint-Pierre, Saint Pierre and Miquelon",1,True,7.0,0
+Saint Vincent and the Grenadines,False,2,True,2,True,"Kingstown, Saint Vincent and the Grenadines; Point Salines, Grenada",2,False,16.0,0
+Samoa,False,3,False,2,True,"Apia, Samoa; Tuasivi, Samoa",2,True,5.0,1
+Sao Tome and Principe,False,2,False,1,True,"Sao Tome, Sao Tome and Principe",1,True,32.0,1
+Saudi Arabia,False,14,True,4,True,"Al Khobar, Saudi Arabia; Duba, Saudi Arabia; Jeddah, Saudi Arabia; Yanbu, Saudi Arabia",4,True,38.0,10
+Senegal,False,5,True,1,True,"Dakar, Senegal",1,True,33.0,4
+Seychelles,False,3,True,2,True,"Carana, Seychelles; Victoria, Seychelles",1,True,38.0,2
+Sierra Leone,False,1,True,1,True,"Freetown, Sierra Leone",1,True,32.0,0
+Singapore,False,27,True,6,True,"Changi North, Singapore; Changi South, Singapore; Katong, Singapore; Sakra Island, Singapore; Tanah Merah, Singapore; Tuas, Singapore",1,True,,26
+Sint Maarten,False,3,True,3,True,"Great Bay Beach, Sint Maarten; Philipsburg, Sint Maarten; Saint Maarten, Sint Maarten",1,True,16.0,2
+Solomon Islands,False,1,True,2,False,"Port Moresby, Papua New Guinea; Sydney, NSW, Australia",2,False,11.0,-1
+Somalia,False,5,True,3,True,"Berbera, Somalia; Bosaso, Somalia; Mogadishu, Somalia",3,True,38.0,2
+South Africa,False,10,True,7,True,"Amanzimtoti, South Africa; Duynefontein, South Africa; Gqeberha, South Africa; Melkbosstrand, South Africa; Mtunzini, South Africa; Umbogintwini, South Africa; Yzerfontein, South Africa",5,True,38.0,5
+South Korea,False,8,True,3,True,"Busan, South Korea; Geoje, South Korea; Shindu-Ri, South Korea",3,True,,5
+Spain,False,14,False,13,False,"Alta Vista, Canary Islands, Spain; Asilah, Morocco; Barcelona, Spain; Bilbao, Spain; Chipiona, Spain; El Goro, Canary Islands, Spain; Estepona, Spain; Gran Canaria, Canary Islands, Spain; Granadilla de Abona, Spain; Manilva, Spain; Santander, Spain; Valencia, Spain; Zahara de los Atunes, Spain",10,False,,4
+Sri Lanka,False,7,True,4,True,"Colombo, Sri Lanka; Matara, Sri Lanka; Mt. Lavinia, Sri Lanka; Ratmalana, Sri Lanka",2,True,38.0,5
+Sudan,False,5,True,1,True,"Port Sudan, Sudan",1,True,33.0,4
+Suriname,False,3,True,2,True,"Paramaribo, Suriname; Totness, Suriname",2,True,27.0,1
+Sweden,False,9,True,8,False,"Blaabjerg, Denmark; Capri Strand, Sweden; Endrup, Denmark; Hirtshals, Denmark; Houstrup, Denmark; Kristiansand, Norway; Logi, Russia; Sylt, Germany",7,False,9.0,2
+Syria,False,4,True,1,True,"Tartous, Syria",1,True,31.0,3
+Taiwan,False,14,True,7,False,"Dawu, Taiwan; Fangshan, Taiwan; Guningtou, Taiwan; Lake Ci, Taiwan; Pa Li, Taiwan; Tanshui, Taiwan; Toucheng, Taiwan",5,False,,9
+Tanzania,False,5,False,2,True,"Dar Es Salaam, Tanzania; Mtwara, Tanzania",2,True,33.0,3
+Thailand,False,12,True,4,True,"Rayong, Thailand; Satun, Thailand; Songkhla, Thailand; Sriracha, Thailand",4,True,,8
+Timor-Leste,False,0,True,0,True,,0,True,0.0,0
+Togo,False,3,True,1,True,"Lome, Togo",1,True,20.0,2
+Tokelau,False,1,True,1,True,"Nukunonu, Tokelau",1,True,,0
+Tonga,False,2,True,2,False,"Neiafu, Tonga; Nuku'alofa, Tonga",2,False,,0
+Trinidad and Tobago,False,5,False,2,True,"Chaguaramas, Trinidad and Tobago; Rockly Bay, Trinidad and Tobago",2,True,16.0,3
+Tunisia,False,5,True,2,False,"Bizerte, Tunisia; Kelibia, Tunisia",2,False,38.0,3
+Turkey,False,5,False,5,False,"Bozyazi, Turkey; Igneada, Turkey; Istanbul, Turkey; Marmaris, Turkey; Samandag, Turkey",5,False,38.0,0
+Turks and Caicos Islands,False,1,True,1,True,"Providenciales, Turks and Caicos Islands",1,True,,0
+US-Alaska,False,5,True,5,False,"Florence, OR, United States; Hillsboro, OR, United States; Ketchikan, AK, United States; Lynnwood, WA, United States; Seward, AK, United States",5,False,,0
+US-Hawaii,False,7,False,6,False,"Kahe Point, HI, United States; Kapolei, HI, United States; Kawaihae, HI, United States; Keawaula, HI, United States; Makaha, HI, United States; Spencer Beach, HI, United States",2,True,,5
+US-Puerto Rico,False,12,True,6,False,"Condado Beach, PR, United States; Isla Verde, PR, United States; Miramar, PR, United States; Ponce, PR, United States; Punta Salinas, PR, United States; San Juan, PR, United States",2,True,,10
+US-Virgin Islands,False,8,True,2,True,"Magen’s Bay, VI, United States; St. Croix, Virgin Islands, Virgin Islands (U.S.)",2,True,,6
+Uganda,False,2,False,1,True,"Muanda, Congo, Dem. Rep.",1,False,2.0,1
+Ukraine,False,2,True,1,True,"Ilyich, Russia",1,False,4.0,1
+United Arab Emirates,False,16,False,5,True,"Abu Dhabi, United Arab Emirates; Das Island, United Arab Emirates; Dubai, United Arab Emirates; Fujairah, United Arab Emirates; Kalba, United Arab Emirates",4,True,38.0,12
+United Kingdom,False,23,True,15,False,"Brighton, United Kingdom; Brookhaven, NY, United States; Bude, United Kingdom; Cayeux-sur-Mer, France; Halifax, NS, Canada; Highbridge, United Kingdom; Killala, Ireland; Kralendijk, Bonaire, Netherlands; Landeyjar, Iceland; Lannion, France; Logi, Russia; Lynn, MA, United States; Skewjack, United Kingdom; Surville, France; Wall Township, NJ, United States",13,False,,10
+Uruguay,False,4,True,2,True,"Maldonado, Uruguay; Punta del Este, Uruguay",1,True,,3
+Vanuatu,False,1,True,1,False,"Port Vila, Vanuatu",1,False,5.0,0
+Venezuela,False,4,True,4,True,"La Guaira, Venezuela; Maiquetia, Venezuela; Puerto Viejo, Venezuela; Punto Fijo, Venezuela",2,True,,2
+Vietnam,False,6,True,3,True,"Danang, Vietnam; Quy Nhon, Vietnam; Vung Tau, Vietnam",3,True,,3
+Virgin Islands (U.K.),False,4,True,2,True,"Nanny Cay, Virgin Islands (U.K.); Tortola, Virgin Islands (U.K.)",1,True,,3
+Wallis and Futuna,False,1,True,2,True,"Leava, Wallis and Futuna; Mata-Utu, Wallis and Futuna",2,True,5.0,-1
+Yemen,False,4,True,3,True,"Aden, Yemen; Al Ghaydah, Yemen; Al Hudaydah, Yemen",3,True,38.0,1
+Albania,True,4,True,2,True,"Durres, Albania; Seman, Albania",2,True,27.0,2
+Algeria,True,6,True,5,True,"Algiers, Algeria; Annaba, Algeria; Bejaia, Algeria; Collo, Algeria; Oran, Algeria",5,True,52.0,1
+American Samoa,True,2,True,1,True,"Pago Pago, American Samoa",1,True,,1
+Angola,True,4,True,3,True,"Cacuaco, Angola; Luanda, Angola; Sangano, Angola",2,True,50.0,2
+Anguilla,True,1,True,1,True,"The Valley, Anguilla",1,True,11.0,0
+Antigua and Barbuda,True,4,False,3,True,"Dickenson Bay, Antigua and Barbuda; Morris Bay, Antigua and Barbuda; St. John’s, Antigua and Barbuda",1,True,,3
+Argentina,True,5,True,1,True,"Las Toninas, Argentina",1,True,,4
+Aruba,True,3,True,2,True,"Baby Beach, Aruba; Hudishibana, Aruba",2,True,,1
+Australia,True,22,False,13,False,"Alexandria, NSW, Australia; Brisbane, QLD, Australia; Brookvale, NSW, Australia; Clovelly, NSW, Australia; Darwin, NT, Australia; Mandurah, WA, Australia; Maroochydore, QLD, Australia; Maroubra, NSW, Australia; Melbourne, VIC, Australia; Oxford Falls, NSW, Australia; Paddington, NSW, Australia; Perth, WA, Australia; Sydney, NSW, Australia",7,True,,15
+Azerbaijan,True,0,True,0,True,,0,True,0.0,0
+Bahamas,True,4,False,6,False,"Boca Raton, FL, United States; Cat Island, Bahamas; Crooked Island, Bahamas; Eight-Mile Rock, Bahamas; Nassau, Bahamas; Port-au-Prince, Haiti",6,False,,-2
+Bahrain,True,7,True,3,True,"Al Hidd, Bahrain; Amwaj Island, Bahrain; Manama, Bahrain",1,True,54.0,6
+Bangladesh,True,3,True,2,True,"Cox’s Bazar, Bangladesh; Kuakata, Bangladesh",2,True,51.0,1
+Barbados,True,3,True,3,False,"Bridgetown, Barbados; Needham’s Point, Barbados; Pegwell, Barbados",1,True,19.0,2
+Belgium,True,4,True,2,False,"Bredene, Belgium; Ostend, Belgium",1,False,26.0,3
+Belize,True,1,True,1,True,"Belize City, Belize",1,True,,0
+Benin,True,3,True,1,True,"Cotonou, Benin",1,True,41.0,2
+Bermuda,True,6,True,2,True,"Annie's Bay, Bermuda; St. David’s, Bermuda",1,True,,5
+"Bonaire, Sint Eustatius and Saba",True,3,True,4,False,"Gallows Bay, Bonaire, Sint Eustatius and Saba; Great Level Bay, Bonaire, Sint Eustatius and Saba; Kralendijk, Bonaire, Sint Eustatius and Saba; North Salina, Bonaire, Sint Eustatius and Saba",3,True,,0
+Brazil,True,12,True,8,False,"Belém, Brazil; Fortaleza, Brazil; Porto Alegre, Brazil; Praia Grande, Brazil; Rio de Janeiro, Brazil; Salvador, Brazil; Santos, Brazil; São Luis, Brazil",7,False,,5
+British Indian Ocean Territory,True,1,True,1,True,"Diego Garcia, British Indian Ocean Territory",1,True,40.0,0
+Brunei,True,5,True,3,True,"Mumong, Brunei; Telisai, Brunei; Tungku, Brunei",3,True,,2
+Bulgaria,True,3,False,3,False,"Aheloy, Bulgaria; Balchik, Bulgaria; Varna, Bulgaria",3,False,7.0,0
+Cambodia,True,3,True,1,True,"Sihanoukville, Cambodia",1,True,51.0,2
+Cameroon,True,5,False,3,True,"Douala, Cameroon; Kribi, Cameroon; Limbe, Cameroon",3,True,31.0,2
+Canada,True,7,True,8,False,"Cordova Bay, BC, Canada; Esquimalt, BC, Canada; Halifax, NS, Canada; Milton, NL, Canada; Port Alberni, BC, Canada; Prince Rupert, BC, Canada; Toronto, ON, Canada; Vancouver, BC, Canada",7,False,,0
+Cape Verde,True,3,True,1,True,"Praia, Cape Verde",1,True,33.0,2
+Cayman Islands,True,2,True,2,True,"Cayman Brac, Cayman Islands; Half Moon Bay, Cayman Islands",2,True,,0
+Chile,True,6,True,2,True,"Arica, Chile; Valparaíso, Chile",2,True,,4
+China,True,18,False,15,False,"Cape D’Aguilar, China; Chongming, China; Chung Hom Kok, China; Dadeng Island, China; Deep Water Bay, China; Fuzhou, China; Guanyin Mountain, China; Lantau Island, China; Lingang, China; Lingshui, China; Nanhui, China; Qingdao, China; Shantou, China; Tong Fuk, China; Tseung Kwan O, China",8,False,,10
+Christmas Island,True,4,True,1,True,"Flying Fish Cove, Christmas Island",1,True,51.0,3
+Cocos (Keeling) Islands,True,1,True,1,True,"West Island, Cocos (Keeling) Islands",1,True,40.0,0
+Colombia,True,10,True,5,True,"Barranquilla, Colombia; Buenaventura, Colombia; Cartagena, Colombia; Riohacha, Colombia; Schooner Bight, Colombia",5,True,,5
+Comoros,True,3,True,2,False,"Mamoudzou, Mayotte; Moroni, Comoros",2,False,44.0,1
+"Congo, Dem. Rep.",True,2,True,1,True,"Muanda, Congo, Dem. Rep.",1,True,44.0,1
+"Congo, Rep.",True,2,True,1,True,"Pointe-Noire, Congo, Rep.",1,True,44.0,1
+Cook Islands,True,1,True,2,True,"Aitutaki, Cook Islands; Rarotonga, Cook Islands",2,True,6.0,-1
+Costa Rica,True,4,True,2,True,"Puerto Limon, Costa Rica; Unqui, Costa Rica",2,True,,2
+Croatia,True,2,True,2,False,"Dubrovnik, Croatia; Umag, Croatia",2,False,20.0,0
+Cuba,True,4,True,4,False,"Cienfuegos, Cuba; Guantanamo Bay, Cuba; Santiago de Cuba, Cuba; Siboney, Cuba",3,False,,1
+Curaçao,True,7,False,2,True,"Mahuma, Curaçao; Willemstad, Curaçao",1,True,,6
+Cyprus,True,11,True,4,False,"Girne, Cyprus; Iskele, Cyprus; Pentaskhinos, Cyprus; Yeroskipos, Cyprus",4,False,52.0,7
+Côte d'Ivoire,True,6,True,1,True,"Abidjan, Côte d'Ivoire",1,True,44.0,5
+Denmark,True,12,True,10,False,"Blaabjerg, Denmark; Capri Strand, Sweden; Endrup, Denmark; Esbjerg, Denmark; Hirtshals, Denmark; Houstrup, Denmark; Kristiansand, Norway; Logi, Russia; Sylt, Germany; Wilhelmshaven, Germany",8,False,,4
+Djibouti,True,12,False,2,True,"Djibouti City, Djibouti; Haramous, Djibouti",1,True,54.0,11
+Dominica,True,2,True,2,True,"Canefield, Dominica; Roseau, Dominica",1,True,19.0,1
+Dominican Republic,True,10,True,5,False,"Cacique, Dominican Republic; Haina, Dominican Republic; Puerto Plata, Dominican Republic; Punta Cana, Dominican Republic; Santo Domingo, Dominican Republic",4,True,,6
+Ecuador,True,5,True,4,True,"Ancon, Ecuador; Manta, Ecuador; Punta Carnero, Ecuador; Salinas, Ecuador",2,True,,3
+Egypt,True,22,True,9,False,"Abu Talat, Egypt; Alexandria, Egypt; Port Said, Egypt; Ras Ghareb, Egypt; Sharm el-Sheikh, Egypt; Sidi Kerir, Egypt; Suez, Egypt; Taba, Egypt; Zafarana, Egypt",7,False,54.0,15
+Equatorial Guinea,True,2,True,3,False,"Annobon, Equatorial Guinea; Bata, Equatorial Guinea; Malabo, Equatorial Guinea",3,False,41.0,-1
+Estonia,True,8,True,4,False,"Kihelkonna, Estonia; Kärdla, Estonia; Meremöisa, Estonia; Tallinn, Estonia",4,False,12.0,4
+Faroe Islands,True,2,True,2,True,"Funningsfjordur, Faroe Islands; Torshavn, Faroe Islands",2,True,26.0,0
+Fiji,True,8,False,3,True,"Natadola, Fiji; Savusavu, Fiji; Suva, Fiji",3,True,,5
+Finland,True,11,True,9,False,"Espoo, Finland; Hanko, Finland; Helsinki, Finland; Kökar, Finland; Kotka, Finland; Lokalahti, Finland; Nothamnsbacken, Sweden; Stavsnas, Sweden; Vaasa, Finland",8,False,15.0,3
+France,True,29,False,13,False,"Ajaccio, France; Bastia, France; Bonifacio, France; Cayeux-sur-Mer, France; Lannion, France; Le Porge, France; Marseille, France; Penmarch, France; Plerin, France; Saint-Hilaire-de-Riez, France; Surville, France; Toulon, France; Veules-les-Roses, France",12,False,,17
+French Guiana,True,3,True,2,False,"Cayenne, French Guiana; Kourou, French Guiana",2,False,32.0,1
+French Polynesia,True,5,True,5,True,"Apia, Samoa; Faratea, French Polynesia; Kawaihae, HI, United States; Mitirapa, French Polynesia; Papenoo, French Polynesia",4,False,,1
+Gabon,True,4,True,1,True,"Libreville, Gabon",1,True,44.0,3
+Gambia,True,1,True,1,True,"Banjul, Gambia",1,True,41.0,0
+Georgia,True,3,False,1,True,"Poti, Georgia",1,True,7.0,2
+Germany,True,8,True,6,False,"Markgrafenheide, Germany; Puttgarden, Germany; Rostock, Germany; Sassnitz, Germany; Sylt, Germany; Wilhelmshaven, Germany",5,False,,3
+Ghana,True,6,True,1,True,"Accra, Ghana",1,True,44.0,5
+Gibraltar,True,1,True,1,True,"Gibraltar, Gibraltar",1,True,44.0,0
+Greece,True,14,True,7,False,"Aethos, Greece; Athens, Greece; Chania, Greece; Corfu, Greece; Kokkini, Greece; Preveza, Greece; Tympaki, Greece",5,False,54.0,9
+Greenland,True,1,True,2,False,"Nuuk, Greenland; Qaqortoq, Greenland",2,False,10.0,-1
+Grenada,True,2,True,2,True,"Kingstown, Saint Vincent and the Grenadines; Point Salines, Grenada",2,True,19.0,0
+Guadeloupe,True,3,True,4,True,"Baie-Mahault, Guadeloupe; Baillif, Guadeloupe; Jarry, Guadeloupe; Pointe-a-Pitre, Guadeloupe",1,True,19.0,2
+Guam,True,19,False,5,True,"Agat, Guam; Alupang, Guam; Piti, Guam; Tanguisson Point, Guam; Tumon Bay, Guam",1,True,,18
+Guatemala,True,6,True,2,True,"Puerto Barrios, Guatemala; Puerto San Jose, Guatemala",2,True,,4
+Guernsey,True,5,False,4,False,"Havelet Bay, Guernsey; L'Ancresse Bay, Guernsey; Pembroke, Guernsey; Saints Bay, Guernsey",1,True,41.0,4
+Guinea,True,1,True,1,True,"Conakry, Guinea",1,True,41.0,0
+Guinea-Bissau,True,1,True,1,True,"Suro, Guinea-Bissau",1,True,41.0,0
+Guyana,True,3,True,1,True,"Georgetown, Guyana",1,True,5.0,2
+Haiti,True,2,True,2,True,"Kaliko, Haiti; Port-au-Prince, Haiti",2,True,14.0,0
+Honduras,True,3,True,3,True,"Puerto Cortes, Honduras; Puerto Lempira, Honduras; Trujillo, Honduras",3,True,,0
+Iceland,True,5,True,4,False,"Landeyjar, Iceland; Meðallandsvegur, Iceland; Seydisfjordur, Iceland; Thorlakshofn, Iceland",4,False,28.0,1
+India,True,21,True,7,False,"Chennai, India; Digha, India; Kochi, India; Machilipatnam, India; Mumbai, India; Trivandrum, India; Tuticorine, India",7,False,,14
+Indonesia,True,30,True,17,False,"Anyer, Indonesia; Batam, Indonesia; Changi North, Singapore; Dumai, Indonesia; Jakarta, Indonesia; Kauditan, Indonesia; Kuala Tungkal, Indonesia; Makassar, Indonesia; Manado, Indonesia; Medan, Indonesia; Nongsa, Indonesia; Penarik, Indonesia; Tanah Merah, Singapore; Tanjung Pakis, Indonesia; Tanjung Pinggir, Indonesia; Terempa, Indonesia; Tuas, Singapore",12,False,,18
+Iran,True,6,True,5,True,"Bandar Abbas, Iran; Bushehr, Iran; Chabahar, Iran; Jask, Iran; Kuwait City, Kuwait",5,True,34.0,1
+Iraq,True,4,True,1,True,"Al Faw, Iraq",1,True,44.0,3
+Ireland,True,16,True,13,False,"Ballinesker, Ireland; Ballygrangans, Ireland; Clonshaugh, Ireland; Cork, Ireland; Dublin, Ireland; Galway, Ireland; Killala, Ireland; Kilmore Quay, Ireland; Lecanvey, Ireland; LoughShinny, Ireland; Lusk, Ireland; Owenahincha, Ireland; Southport, United Kingdom",8,False,,8
+Isle of Man,True,6,True,4,False,"Blackpool, United Kingdom; Groudle Bay, Isle of Man; LoughShinny, Ireland; Peel, Isle of Man",1,True,26.0,5
+Israel,True,7,True,5,True,"Ashkelon, Israel; Haifa, Israel; Netanya, Israel; Tel Aviv, Israel; Tirat Carmel, Israel",3,True,37.0,4
+Italy,True,20,False,14,False,"Bahar ic-Caghaq, Malta; Bari, Italy; Catania, Italy; Corfu, Greece; Crotone, Italy; Genoa, Italy; Golfo Aranci, Italy; Mazara del Vallo, Italy; Otranto, Italy; Palermo, Italy; Rome, Italy; Santa Teresa Gallura, Italy; Savona, Italy; Sidi Kerir, Egypt",13,False,54.0,7
+Jamaica,True,5,False,7,False,"Bull Bay, Jamaica; Copa Club, Jamaica; Harbour View, Jamaica; Montego Bay, Jamaica; Morant Point, Jamaica; Ocho Rios, Jamaica; Port Antonio, Jamaica",5,False,,0
+Japan,True,31,True,18,False,"Ajigaura, Japan; Chikura, Japan; Emi, Japan; Fukuoka, Japan; Ishikari, Japan; Itoshima, Japan; Joetsu, Japan; Kitaibaraki, Japan; Kitakyushu, Japan; Komesu, Japan; Maruyama, Japan; Minamiboso, Japan; Naha, Japan; Shima, Japan; Takahagi, Japan; Tomakomai, Japan; Toyohashi, Japan; Wada, Japan",11,False,,20
+Jersey,True,3,True,3,False,"Archirondel, Jersey; Greve de Lecq, Jersey; St. Ouens Bay, Jersey",1,True,41.0,2
+Jordan,True,6,True,1,True,"Aqaba, Jordan",1,True,51.0,5
+Kazakhstan,True,0,True,0,True,,0,True,0.0,0
+Kenya,True,8,True,3,True,"Mombasa, Kenya; Mtwapa, Kenya; Nyali, Kenya",1,True,54.0,7
+Kiribati,True,2,True,2,True,"Tabwakea, Kiribati; Tarawa, Kiribati",2,True,,0
+Kuwait,True,6,True,2,True,"Al Safat, Kuwait; Kuwait City, Kuwait",1,True,44.0,5
+Latvia,True,3,True,2,False,"Liepaja, Latvia; Ventspils, Latvia",2,False,12.0,1
+Lebanon,True,4,True,3,True,"Pentaskhinos, Cyprus; Tartous, Syria; Tripoli, Lebanon",3,False,39.0,1
+Liberia,True,1,True,1,True,"Monrovia, Liberia",1,True,41.0,0
+Libya,True,4,True,4,False,"Benghazi, Libya; Derna, Libya; Misuratah, Libya; Tripoli, Libya",4,False,44.0,0
+Lithuania,True,3,True,2,False,"Klaipeda, Lithuania; Sventoji, Lithuania",2,False,12.0,1
+Madagascar,True,5,True,4,True,"Fort Dauphin, Madagascar; Mahajanga, Madagascar; Toamasina, Madagascar; Toliara, Madagascar",4,True,44.0,1
+Malaysia,True,29,False,11,False,"Cherating, Malaysia; Kiamsam, Malaysia; Kuala Sedili, Malaysia; Kuching, Malaysia; Melaka, Malaysia; Mersing, Malaysia; Morib, Malaysia; Penang, Malaysia; Pengerang, Malaysia; Rengit, Malaysia; Sedili, Malaysia",10,False,,19
+Maldives,True,7,True,4,True,"Hithadhoo, Maldives; Hulhumale, Maldives; Kulhudhufushi, Maldives; Male, Maldives",3,True,51.0,4
+Malta,True,7,True,4,False,"Bahar ic-Caghaq, Malta; Catania, Italy; Mellieha, Malta; St. Paul's Bay, Malta",1,True,52.0,6
+Marshall Islands,True,1,True,2,False,"Kwajalein, Marshall Islands; Majuro, Marshall Islands",2,False,19.0,-1
+Martinique,True,5,True,2,True,"Le Lamentin, Martinique; Schoelcher, Martinique",1,True,,4
+Mauritania,True,2,True,2,True,"Nouadhibou, Mauritania; Nouakchott, Mauritania",2,True,49.0,0
+Mauritius,True,4,True,3,True,"Baie du Tombeau, Mauritius; Baie Jacotet, Mauritius; Terre Rouge, Mauritius",2,True,47.0,2
+Mayotte,True,3,False,2,False,"Kaweni, Mayotte; Mamoudzou, Mayotte",1,True,8.0,2
+Mexico,True,8,True,6,True,"Cancún, Mexico; Mazatlán, Mexico; Rosarito, Mexico; Tijuana, Mexico; Tulum, Mexico; Veracruz, Mexico",5,True,,3
+Micronesia,True,3,False,3,False,"Kosrae, Micronesia; Magachgil, Yap, Micronesia; Pohnpei, Micronesia",3,False,,0
+Monaco,True,2,True,2,False,"Monaco, Monaco; Monte Carlo, Monaco",1,True,44.0,1
+Montserrat,True,1,True,1,True,"Bunkum Bay, Montserrat",1,True,18.0,0
+Morocco,True,7,True,6,True,"Asilah, Morocco; Casablanca, Morocco; Dakhla, Morocco; Nador, Morocco; Tarfaya, Morocco; Tétouan, Morocco",6,True,49.0,1
+Mozambique,True,4,True,3,True,"Beira, Mozambique; Maputo, Mozambique; Nacala, Mozambique",3,True,44.0,1
+Myanmar,True,3,True,2,False,"Ngwe Saung, Myanmar; Thanlyin, Myanmar",2,False,51.0,1
+Namibia,True,2,True,1,True,"Swakopmund, Namibia",1,True,25.0,1
+Nauru,True,1,True,1,True,"Yaren, Nauru",1,True,3.0,0
+Netherlands,True,11,True,8,False,"Beverwijk, Netherlands; Callantsoog, Netherlands; Domburg, Netherlands; Eemshaven, Netherlands; Ijmuiden, Netherlands; Kralendijk, Bonaire, Netherlands; The Hague, Netherlands; Zandvoort, Netherlands",6,False,,5
+New Caledonia,True,3,False,2,False,"Noumea, New Caledonia; Suva, Fiji",2,False,23.0,1
+New Zealand,True,7,True,6,False,"Auckland, New Zealand; Invercargill, New Zealand; Mangawhai, New Zealand; Raglan, New Zealand; Takapuna, New Zealand; Whenuapai, New Zealand",4,False,,3
+Nicaragua,True,1,True,2,True,"Bluefields, Nicaragua; Puerto Cabezas, Nicaragua",2,True,,-1
+Nigeria,True,8,False,2,True,"Kwa Ibo, Nigeria; Lagos, Nigeria",2,True,44.0,6
+Niue,True,1,True,1,True,"Alofi, Niue",1,True,6.0,0
+Northern Mariana Islands,True,6,True,3,True,"Piti, Guam; Tanguisson Point, Guam; Tinian, Northern Mariana Islands",2,False,,4
+Norway,True,9,True,6,False,"Aberdeen, United Kingdom; Capri Strand, Sweden; Kristiansand, Norway; Larvik, Norway; Lista, Norway; Stavanger, Norway",6,False,,3
+Oman,True,21,False,8,True,"Al Bustan, Oman; Al Seeb, Oman; Barka, Oman; Diba, Oman; Khasab, Oman; Muscat, Oman; Qalhat, Oman; Salalah, Oman",7,True,54.0,14
+Pakistan,True,9,True,1,True,"Karachi, Pakistan",1,True,54.0,8
+Palau,True,2,True,1,True,"Ngeremlengui, Palau",1,True,,1
+Panama,True,10,True,7,True,"Balboa, Panama; Colón, Panama; Cristóbal, Panama; Fort Amador, Panama; Maria Chiquita, Panama; Panama City, Panama; Ustupo, Panama",3,True,,7
+Papua New Guinea,True,3,True,2,True,"Madang, Papua New Guinea; Port Moresby, Papua New Guinea",2,True,47.0,1
+Peru,True,3,True,2,True,"Lurin, Peru; Mancora, Peru",2,True,,1
+Philippines,True,18,True,11,True,"Baler, Philippines; Ballesteros, Philippines; Batangas, Philippines; Bauang, Philippines; Cavite, Philippines; Claveria, Philippines; Daet, Philippines; Davao, Philippines; La Union, Philippines; Luna, Philippines; Nasugbu, Philippines",10,True,,8
+Poland,True,1,True,1,True,"Kołobrzeg, Poland",1,True,12.0,0
+Portugal,True,12,True,6,True,"Carcavelos, Portugal; Funchal, Portugal; Seixal, Portugal; Sesimbra, Portugal; Sines, Portugal; São Miguel, Portugal",4,True,,8
+Qatar,True,9,True,5,True,"Al Daayen, Qatar; Al Ghariya, Qatar; Al-Kheesa, Qatar; Doha, Qatar; Halul Island, Qatar",4,True,54.0,5
+Romania,True,1,True,1,True,"Mangalia, Romania",1,True,6.0,0
+Russia,True,5,False,5,False,"Ilyich, Russia; Logi, Russia; Nahodka, Russia; Nevelsk, Russia; Poti, Georgia",5,False,41.0,0
+Réunion,True,4,True,3,True,"Le Port, Réunion; Saint Paul, Réunion; Sainte Marie, Réunion",2,True,47.0,2
+Saint Barthélemy,True,4,True,2,True,"Gustavia, Saint Barthélemy; Saint Jean Bay, Saint Barthélemy",1,True,,3
+"Saint Helena, Ascension and Tristan da Cunha",True,1,True,1,True,"Rupert's Bay, Saint Helena, Ascension and Tristan da Cunha",1,True,20.0,0
+Saint Kitts and Nevis,True,4,False,2,True,"Basseterre, Saint Kitts and Nevis; Frigate Bay, Saint Kitts and Nevis",1,True,19.0,3
+Saint Lucia,True,2,True,2,True,"Castries, Saint Lucia; Rodney Bay, Saint Lucia",1,True,19.0,1
+Saint Martin,True,3,True,3,True,"Baie Longue, Saint Martin; Marigot, Saint Martin; St. Louis, Saint Martin",1,True,18.0,2
+Saint Pierre and Miquelon,True,1,True,2,False,"Miquelon-Langlade, Saint Pierre and Miquelon; Saint-Pierre, Saint Pierre and Miquelon",1,True,7.0,0
+Saint Vincent and the Grenadines,True,2,True,2,True,"Kingstown, Saint Vincent and the Grenadines; Point Salines, Grenada",2,False,19.0,0
+Samoa,True,3,False,2,True,"Apia, Samoa; Tuasivi, Samoa",2,True,10.0,1
+Sao Tome and Principe,True,2,False,1,True,"Sao Tome, Sao Tome and Principe",1,True,41.0,1
+Saudi Arabia,True,22,True,6,True,"Al Khobar, Saudi Arabia; Duba, Saudi Arabia; Haql, Saudi Arabia; Jeddah, Saudi Arabia; Neom, Saudi Arabia; Yanbu, Saudi Arabia",6,True,54.0,16
+Senegal,True,5,True,1,True,"Dakar, Senegal",1,True,44.0,4
+Seychelles,True,3,True,2,True,"Carana, Seychelles; Victoria, Seychelles",1,True,54.0,2
+Sierra Leone,True,1,True,1,True,"Freetown, Sierra Leone",1,True,41.0,0
+Singapore,True,39,False,8,True,"Changi North, Singapore; Changi, Singapore; Changi South, Singapore; Katong, Singapore; Sakra Island, Singapore; Singapore, Singapore; Tanah Merah, Singapore; Tuas, Singapore",1,True,,38
+Sint Maarten,True,3,True,3,True,"Great Bay Beach, Sint Maarten; Philipsburg, Sint Maarten; Saint Maarten, Sint Maarten",1,True,19.0,2
+Solomon Islands,True,2,True,3,True,"Honiara, Solomon Islands; Port Moresby, Papua New Guinea; Sydney, NSW, Australia",3,True,47.0,-1
+Somalia,True,6,True,3,True,"Berbera, Somalia; Bosaso, Somalia; Mogadishu, Somalia",3,True,54.0,3
+South Africa,True,12,True,8,True,"Amanzimtoti, South Africa; Cape Town, South Africa; Duynefontein, South Africa; Gqeberha, South Africa; Melkbosstrand, South Africa; Mtunzini, South Africa; Umbogintwini, South Africa; Yzerfontein, South Africa",5,True,,7
+South Korea,True,12,True,4,True,"Busan, South Korea; Geoje, South Korea; Gunsan, South Korea; Shindu-Ri, South Korea",4,True,,8
+Spain,True,16,True,15,False,"Alta Vista, Canary Islands, Spain; Asilah, Morocco; Barcelona, Spain; Bilbao, Spain; Chipiona, Spain; El Goro, Canary Islands, Spain; Estepona, Spain; Gran Canaria, Canary Islands, Spain; Granadilla de Abona, Spain; Manilva, Spain; Sagunto, Spain; Santander, Spain; Tarfaya, Morocco; Valencia, Spain; Zahara de los Atunes, Spain",12,False,,4
+Sri Lanka,True,9,False,4,True,"Colombo, Sri Lanka; Matara, Sri Lanka; Mt. Lavinia, Sri Lanka; Ratmalana, Sri Lanka",2,True,51.0,7
+Sudan,True,5,True,1,True,"Port Sudan, Sudan",1,True,44.0,4
+Suriname,True,3,True,2,True,"Paramaribo, Suriname; Totness, Suriname",2,True,31.0,1
+Sweden,True,12,True,10,False,"Blaabjerg, Denmark; Capri Strand, Sweden; Endrup, Denmark; Esbjerg, Denmark; Hirtshals, Denmark; Houstrup, Denmark; Kristiansand, Norway; Logi, Russia; Sylt, Germany; Wilhelmshaven, Germany",8,False,12.0,4
+Syria,True,5,True,1,True,"Tartous, Syria",1,True,41.0,4
+Taiwan,True,18,True,8,False,"Dawu, Taiwan; Fangshan, Taiwan; Guningtou, Taiwan; Lake Ci, Taiwan; Pa Li, Taiwan; Tanshui, Taiwan; Toucheng, Taiwan; Wujie, Taiwan",5,False,,13
+Tanzania,True,5,False,2,True,"Dar Es Salaam, Tanzania; Mtwara, Tanzania",2,True,44.0,3
+Thailand,True,15,True,4,True,"Rayong, Thailand; Satun, Thailand; Songkhla, Thailand; Sriracha, Thailand",4,True,,11
+Timor-Leste,True,2,True,1,True,"Dili, Timor-Leste",1,True,,1
+Togo,True,3,True,1,True,"Lome, Togo",1,True,25.0,2
+Tokelau,True,1,True,1,True,"Nukunonu, Tokelau",1,True,,0
+Tonga,True,2,True,2,False,"Neiafu, Tonga; Nuku'alofa, Tonga",2,False,,0
+Trinidad and Tobago,True,5,False,2,True,"Chaguaramas, Trinidad and Tobago; Rockly Bay, Trinidad and Tobago",2,True,19.0,3
+Tunisia,True,5,True,2,False,"Bizerte, Tunisia; Kelibia, Tunisia",2,False,52.0,3
+Turkey,True,6,False,6,False,"Bozyazi, Turkey; Igneada, Turkey; Istanbul, Turkey; Marmaris, Turkey; Samandag, Turkey; Sile, Turkey",6,False,51.0,0
+Turks and Caicos Islands,True,1,True,1,True,"Providenciales, Turks and Caicos Islands",1,True,,0
+Tuvalu,True,0,True,0,True,,0,True,0.0,0
+US-Alaska,True,6,True,5,False,"Florence, OR, United States; Hillsboro, OR, United States; Ketchikan, AK, United States; Lynnwood, WA, United States; Seward, AK, United States",5,False,,1
+US-Hawaii,True,11,True,6,True,"Kahe Point, HI, United States; Kapolei, HI, United States; Kawaihae, HI, United States; Keawaula, HI, United States; Makaha, HI, United States; Spencer Beach, HI, United States",2,True,,9
+US-Puerto Rico,True,14,True,6,False,"Condado Beach, PR, United States; Isla Verde, PR, United States; Miramar, PR, United States; Ponce, PR, United States; Punta Salinas, PR, United States; San Juan, PR, United States",2,True,,12
+US-Virgin Islands,True,9,True,3,True,"Butler Bay, Virgin Islands (U.S.); Magen’s Bay, VI, United States; St. Croix, Virgin Islands, Virgin Islands (U.S.)",2,True,,7
+Uganda,True,2,False,1,True,"Muanda, Congo, Dem. Rep.",1,False,2.0,1
+Ukraine,True,3,True,2,True,"Ilyich, Russia; Odessa, Ukraine",2,False,7.0,1
+United Arab Emirates,True,19,False,5,True,"Abu Dhabi, United Arab Emirates; Das Island, United Arab Emirates; Dubai, United Arab Emirates; Fujairah, United Arab Emirates; Kalba, United Arab Emirates",4,True,54.0,15
+United Kingdom,True,26,True,17,False,"Blaabjerg, Denmark; Brighton, United Kingdom; Brookhaven, NY, United States; Bude, United Kingdom; Cayeux-sur-Mer, France; Halifax, NS, Canada; Highbridge, United Kingdom; Killala, Ireland; Kralendijk, Bonaire, Netherlands; Landeyjar, Iceland; Lannion, France; Logi, Russia; Lynn, MA, United States; Owenahincha, Ireland; Skewjack, United Kingdom; Surville, France; Wall Township, NJ, United States",14,False,,12
+Uruguay,True,4,True,2,True,"Maldonado, Uruguay; Punta del Este, Uruguay",1,True,,3
+Vanuatu,True,2,True,2,False,"Port Vila, Vanuatu; We, New Caledonia",2,False,8.0,0
+Venezuela,True,5,True,5,False,"Camuri, Venezuela; La Guaira, Venezuela; Maiquetia, Venezuela; Puerto Viejo, Venezuela; Punto Fijo, Venezuela",2,True,,3
+Vietnam,True,9,True,3,True,"Danang, Vietnam; Quy Nhon, Vietnam; Vung Tau, Vietnam",3,True,,6
+Virgin Islands (U.K.),True,4,True,2,True,"Nanny Cay, Virgin Islands (U.K.); Tortola, Virgin Islands (U.K.)",1,True,,3
+Wallis and Futuna,True,1,True,2,True,"Leava, Wallis and Futuna; Mata-Utu, Wallis and Futuna",2,True,8.0,-1
+Yemen,True,5,True,3,True,"Aden, Yemen; Al Ghaydah, Yemen; Al Hudaydah, Yemen",3,True,51.0,2

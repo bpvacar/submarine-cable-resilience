@@ -1,0 +1,32 @@
+Ecuador → us | modo=cables | solo activos
+  corte mínimo = 4 (único)
+   - Pacific Caribbean Cable System (PCCS)  (Aruba, Colombia, Curaçao, Ecuador, Panama, US-Contiguous, US-Puerto Rico, Virgin Islands (U.K.))
+   - PanAm South  (Ecuador, Panama)
+   - South America-1 (SAm-1)  (Argentina, Brazil, Chile, Colombia, Dominican Republic, Ecuador, Guatemala, Peru, …)
+   - South Pacific Cable System (SPCS)/Mistral  (Chile, Ecuador, Guatemala, Peru)
+  rutas disjuntas (Menger):
+   1. Ecuador → Pacific Caribbean Cable System (PCCS) → US-Contiguous
+   2. Ecuador → PanAm South → Panama → ARCOS → US-Contiguous
+   3. Ecuador → South America-1 (SAm-1) → US-Contiguous
+   4. Ecuador → South Pacific Cable System (SPCS)/Mistral → Chile → Curie → US-Contiguous
+
+Ecuador → us | modo=stations | solo activos
+  corte mínimo = 3 (único)
+   - Manta, Ecuador  ⇒ cables: Pacific Caribbean Cable System (PCCS)
+   - Punta Carnero, Ecuador  ⇒ cables: PanAm South, South America-1 (SAm-1)
+   - Salinas, Ecuador  ⇒ cables: South Pacific Cable System (SPCS)/Mistral
+  rutas disjuntas (Menger):
+   1. Ecuador → [manta-ecuador] → Pacific Caribbean Cable System (PCCS) → US-Contiguous
+   2. Ecuador → [punta-carnero-ecuador] → South America-1 (SAm-1) → US-Contiguous
+   3. Ecuador → [salinas-ecuador] → South Pacific Cable System (SPCS)/Mistral → Curie → US-Contiguous
+
+Ecuador → us | modo=sites, sitios a ≤25 km | solo activos
+  corte mínimo = 2 (único)
+   - Manta, Ecuador  ⇒ cables: Pacific Caribbean Cable System (PCCS)
+   - Punta Carnero, Ecuador, Salinas, Ecuador  ⇒ cables: PanAm South, South America-1 (SAm-1), South Pacific Cable System (SPCS)/Mistral
+  rutas disjuntas (Menger):
+   1. Ecuador → [manta-ecuador] → Pacific Caribbean Cable System (PCCS) → US-Contiguous
+   2. Ecuador → [salinas-ecuador] → South America-1 (SAm-1) → US-Contiguous
+
+Ecuador → us | modo=external | solo activos
+  sin corte externo finito; cables propios que llegan directo: ['Pacific Caribbean Cable System (PCCS)', 'South America-1 (SAm-1)']

@@ -1,0 +1,36 @@
+Ecuador → us | modo=cables | con planificados
+  corte mínimo = 5 (único)
+   - Carnival Submarine Network-1 (CSN-1)  (Colombia, Ecuador, Mexico, Panama, US-Contiguous)
+   - Pacific Caribbean Cable System (PCCS)  (Aruba, Colombia, Curaçao, Ecuador, Panama, US-Contiguous, US-Puerto Rico, Virgin Islands (U.K.))
+   - PanAm South  (Ecuador, Panama)
+   - South America-1 (SAm-1)  (Argentina, Brazil, Chile, Colombia, Dominican Republic, Ecuador, Guatemala, Peru, …)
+   - South Pacific Cable System (SPCS)/Mistral  (Chile, Ecuador, Guatemala, Peru)
+  rutas disjuntas (Menger):
+   1. Ecuador → Carnival Submarine Network-1 (CSN-1) → US-Contiguous
+   2. Ecuador → Pacific Caribbean Cable System (PCCS) → US-Contiguous
+   3. Ecuador → PanAm South → Panama → ARCOS → US-Contiguous
+   4. Ecuador → South America-1 (SAm-1) → US-Contiguous
+   5. Ecuador → South Pacific Cable System (SPCS)/Mistral → Chile → Curie → US-Contiguous
+
+Ecuador → us | modo=stations | con planificados
+  corte mínimo = 4 (único)
+   - Ancon, Ecuador  ⇒ cables: Carnival Submarine Network-1 (CSN-1)
+   - Manta, Ecuador  ⇒ cables: Pacific Caribbean Cable System (PCCS)
+   - Punta Carnero, Ecuador  ⇒ cables: PanAm South, South America-1 (SAm-1)
+   - Salinas, Ecuador  ⇒ cables: South Pacific Cable System (SPCS)/Mistral
+  rutas disjuntas (Menger):
+   1. Ecuador → [ancon-ecuador] → Carnival Submarine Network-1 (CSN-1) → US-Contiguous
+   2. Ecuador → [manta-ecuador] → Pacific Caribbean Cable System (PCCS) → US-Contiguous
+   3. Ecuador → [punta-carnero-ecuador] → South America-1 (SAm-1) → US-Contiguous
+   4. Ecuador → [salinas-ecuador] → South Pacific Cable System (SPCS)/Mistral → Curie → US-Contiguous
+
+Ecuador → us | modo=sites, sitios a ≤25 km | con planificados
+  corte mínimo = 2 (único)
+   - Manta, Ecuador  ⇒ cables: Pacific Caribbean Cable System (PCCS)
+   - Ancon, Ecuador, Punta Carnero, Ecuador, Salinas, Ecuador  ⇒ cables: Carnival Submarine Network-1 (CSN-1), PanAm South, South America-1 (SAm-1), South Pacific Cable System (SPCS)/Mistral
+  rutas disjuntas (Menger):
+   1. Ecuador → [salinas-ecuador] → Carnival Submarine Network-1 (CSN-1) → US-Contiguous
+   2. Ecuador → [manta-ecuador] → Pacific Caribbean Cable System (PCCS) → US-Contiguous
+
+Ecuador → us | modo=external | con planificados
+  sin corte externo finito; cables propios que llegan directo: ['Carnival Submarine Network-1 (CSN-1)', 'Pacific Caribbean Cable System (PCCS)', 'South America-1 (SAm-1)']

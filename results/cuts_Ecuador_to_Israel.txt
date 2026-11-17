@@ -1,0 +1,27 @@
+Ecuador → country:Israel | modo=cables | solo activos
+  corte mínimo = 4 (NO único)
+   - Pacific Caribbean Cable System (PCCS)  (Aruba, Colombia, Curaçao, Ecuador, Panama, US-Contiguous, US-Puerto Rico, Virgin Islands (U.K.))
+   - PanAm South  (Ecuador, Panama)
+   - South America-1 (SAm-1)  (Argentina, Brazil, Chile, Colombia, Dominican Republic, Ecuador, Guatemala, Peru, …)
+   - South Pacific Cable System (SPCS)/Mistral  (Chile, Ecuador, Guatemala, Peru)
+  rutas disjuntas (Menger):
+   1. Ecuador → Pacific Caribbean Cable System (PCCS) → US-Contiguous → Amitie → France → Blue → Israel
+   2. Ecuador → PanAm South → Panama → ARCOS → Mexico → Bifrost → Indonesia → SeaMeWe-5 → Italy → Jonah → Israel
+   3. Ecuador → South America-1 (SAm-1) → Brazil → EllaLink → Morocco → Medusa Submarine Cable System → Cyprus → Exelera North → Israel
+   4. Ecuador → South Pacific Cable System (SPCS)/Mistral → Chile → Curie → US-Contiguous → Anjana → Spain → 2Africa → Greece → MedNautilus Submarine System → Israel
+
+Ecuador → country:Israel | modo=stations | solo activos
+  corte mínimo = 2 (único)
+   - Tel Aviv, Israel  ⇒ cables: Blue, Israel Coasting 1 (IC-1), Jonah, MedNautilus Submarine System
+   - Tirat Carmel, Israel  ⇒ cables: Exelera North, MedNautilus Submarine System
+  rutas disjuntas (Menger):
+   1. Ecuador → [manta-ecuador] → Pacific Caribbean Cable System (PCCS) → US-Contiguous → Asia-America Gateway (AAG) Cable System → Asia Africa Europe-1 (AAE-1) → MedNautilus Submarine System → Israel
+   2. Ecuador → [punta-carnero-ecuador] → South America-1 (SAm-1) → EllaLink → 2Africa → Blue → Israel
+
+Ecuador → country:Israel | modo=sites, sitios a ≤25 km | solo activos
+  corte mínimo = 2 (NO único)
+   - Manta, Ecuador  ⇒ cables: Pacific Caribbean Cable System (PCCS)
+   - Punta Carnero, Ecuador, Salinas, Ecuador  ⇒ cables: PanAm South, South America-1 (SAm-1), South Pacific Cable System (SPCS)/Mistral
+  rutas disjuntas (Menger):
+   1. Ecuador → [manta-ecuador] → Pacific Caribbean Cable System (PCCS) → Pan-American Crossing (PAC) → Bifrost → PEACE Cable → Exelera North → Israel
+   2. Ecuador → [salinas-ecuador] → South America-1 (SAm-1) → EllaLink → 2Africa → Blue → Israel
