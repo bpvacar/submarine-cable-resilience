@@ -98,3 +98,22 @@ def test_real_data_matches_networkx(country):
     h = g.copy()
     h.remove_edges_from(cut)
     assert not nx.has_path(h, s, t)
+
+
+@pytest.mark.parametrize("country", ["United States", "United Kingdom", "Singapore", "Ecuador"])
+def test_world_sink_matches_networkx(country):
+    from cableflow.world import cut_to_world
+
+    net = load_network(split_us=False)
+    value, international, cut_is_own = cut_to_world(net, country)
+    cap = build_flow_graph(net)
+    g = nx.DiGraph()
+    for u, nbrs in cap.items():
+        for v, c in nbrs.items():
+            g.add_edge(u, v, capacity=c)
+        if u[0] == "region" and u != region(country):
+            g.add_edge(u, "sink", capacity=10**9)
+    assert value == nx.maximum_flow_value(g, region(country), "sink")
+    # To the rest of the world, the min cut is exactly the country's own
+    # international cables.
+    assert value == international and cut_is_own

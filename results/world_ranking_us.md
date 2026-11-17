@@ -1,5 +1,5 @@
-| Rank | Country | Min cut (cables) | With planned | Cables landing | Unique cut | Stations | Sites ≤ 25 km |
-|---:|---|---:|---:|---:|---|---:|---:|
+| rank | country | min_cut | min_cut_with_planned | cables_landing | cut_is_unique | stations | sites_25km |
+|---:|---|---:|---:|---:|---:|---:|---:|
 | 1 | Singapore | 27 | 39 | 34 | yes | 6 | 1 |
 | 2 | France | 24 | 29 | 24 | no | 13 | 12 |
 | 3 | Japan | 23 | 31 | 24 | no | 15 | 10 |

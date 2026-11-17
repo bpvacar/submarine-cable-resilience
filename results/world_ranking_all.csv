@@ -1,0 +1,185 @@
+rank,country,min_cut,min_cut_with_planned,international_cables,cut_is_own_cables,stations,sites_25km
+1,United States,59,82,59,True,45,27
+2,United Kingdom,51,56,51,True,28,19
+3,Singapore,34,47,34,True,6,1
+4,Italy,27,32,27,True,14,13
+5,Japan,24,33,24,True,15,10
+5,France,24,29,24,True,13,12
+7,Indonesia,23,30,23,True,15,11
+8,Denmark,22,26,22,True,19,10
+8,Sweden,22,26,22,True,21,14
+10,Malaysia,20,29,20,True,8,8
+11,Egypt,17,22,17,True,7,6
+11,United Arab Emirates,17,20,17,True,5,4
+13,India,16,21,16,True,7,7
+13,China,16,18,16,True,15,8
+15,Saudi Arabia,15,23,15,True,4,4
+15,Guam,15,21,15,True,5,1
+15,Oman,15,21,15,True,8,7
+18,Philippines,14,18,14,True,9,9
+18,Taiwan,14,18,14,True,7,5
+18,Spain,14,17,14,True,13,10
+18,Ireland,14,16,14,True,12,7
+22,Australia,13,26,13,True,7,3
+22,Brazil,13,14,13,True,8,7
+24,Finland,12,15,12,True,7,6
+24,South Africa,12,15,12,True,7,5
+24,Thailand,12,15,12,True,4,4
+27,Cyprus,11,13,11,True,4,4
+28,Greece,10,14,10,True,7,5
+28,Portugal,10,12,10,True,5,3
+28,Netherlands,10,11,10,True,7,5
+31,Djibouti,8,12,8,True,2,1
+31,South Korea,8,12,8,True,3,3
+31,Norway,8,9,8,True,6,6
+31,Sri Lanka,8,9,8,True,4,2
+31,Canada,8,8,8,True,10,8
+31,Nigeria,8,8,8,True,2,2
+37,Colombia,7,10,7,True,5,5
+37,Dominican Republic,7,10,7,True,5,4
+37,Kenya,7,9,7,True,3,1
+37,Pakistan,7,9,7,True,1,1
+37,Qatar,7,9,7,True,4,3
+37,Estonia,7,8,7,True,3,3
+37,Germany,7,8,7,True,5,4
+37,Argentina,7,7,7,True,1,1
+37,Malta,7,7,7,True,4,1
+46,Panama,6,10,6,True,6,3
+46,Fiji,6,9,6,True,2,2
+46,Vietnam,6,9,6,True,3,3
+46,Curaçao,6,8,6,True,2,1
+46,Morocco,6,7,6,True,5,5
+46,Côte d'Ivoire,6,6,6,True,1,1
+46,Ghana,6,6,6,True,1,1
+46,Iran,6,6,6,True,5,5
+46,Isle of Man,6,6,6,True,4,1
+46,Russia,6,6,6,True,5,5
+56,Bahrain,5,7,5,True,3,1
+56,Maldives,5,7,5,True,3,2
+56,Algeria,5,6,5,True,4,4
+56,Kuwait,5,6,5,True,2,1
+56,Somalia,5,6,5,True,3,3
+56,Turkey,5,6,5,True,5,5
+56,Virgin Islands (U.S.),5,6,5,True,1,1
+56,Cameroon,5,5,5,True,3,3
+56,Guernsey,5,5,5,True,4,1
+56,Jamaica,5,5,5,True,7,5
+56,Madagascar,5,5,5,True,4,4
+56,Senegal,5,5,5,True,1,1
+56,Sudan,5,5,5,True,1,1
+56,Tanzania,5,5,5,True,2,2
+56,Trinidad and Tobago,5,5,5,True,2,2
+56,Tunisia,5,5,5,True,2,2
+72,Mexico,4,8,4,True,5,4
+72,Israel,4,7,4,True,2,2
+72,New Zealand,4,7,4,True,4,3
+72,Chile,4,6,4,True,2,2
+72,Guatemala,4,6,4,True,2,2
+72,Jordan,4,6,4,True,1,1
+72,Ecuador,4,5,4,True,3,2
+72,Iceland,4,5,4,True,3,3
+72,Martinique,4,5,4,True,2,1
+72,Syria,4,5,4,True,1,1
+72,Venezuela,4,5,4,True,4,2
+72,Yemen,4,5,4,True,3,3
+72,Angola,4,4,4,True,3,2
+72,Bahamas,4,4,4,True,6,6
+72,Belgium,4,4,4,True,2,1
+72,Comoros,4,4,4,True,2,2
+72,"Congo, Dem. Rep.",4,4,4,True,3,2
+72,Cuba,4,4,4,True,4,3
+72,Gabon,4,4,4,True,1,1
+72,Libya,4,4,4,True,4,4
+72,Mauritius,4,4,4,True,3,2
+72,Mozambique,4,4,4,True,3,3
+72,Saint Kitts and Nevis,4,4,4,True,2,1
+72,Uruguay,4,4,4,True,2,1
+72,Virgin Islands (U.K.),4,4,4,True,2,1
+97,Bermuda,3,6,3,True,1,1
+97,Northern Mariana Islands,3,6,3,True,3,2
+97,Brunei,3,5,3,True,2,2
+97,Albania,3,4,3,True,2,2
+97,Antigua and Barbuda,3,4,3,True,2,1
+97,Costa Rica,3,4,3,True,2,2
+97,Iraq,3,4,3,True,1,1
+97,Lebanon,3,4,3,True,3,3
+97,Réunion,3,4,3,True,3,2
+97,Saint Barthélemy,3,4,3,True,1,1
+97,Barbados,3,3,3,True,3,1
+97,Benin,3,3,3,True,1,1
+97,Cape Verde,3,3,3,True,1,1
+97,Equatorial Guinea,3,3,3,True,3,3
+97,French Guiana,3,3,3,True,2,2
+97,Grenada,3,3,3,True,3,3
+97,Guadeloupe,3,3,3,True,4,1
+97,Guyana,3,3,3,True,1,1
+97,Jersey,3,3,3,True,3,1
+97,Latvia,3,3,3,True,2,2
+97,Lithuania,3,3,3,True,2,2
+97,Mayotte,3,3,3,True,2,1
+97,Micronesia,3,3,3,True,3,3
+97,Myanmar,3,3,3,True,2,2
+97,Peru,3,3,3,True,2,2
+97,Saint Martin,3,3,3,True,3,1
+97,Saint Vincent and the Grenadines,3,3,3,True,3,2
+97,Samoa,3,3,3,True,2,2
+97,Seychelles,3,3,3,True,2,1
+97,Sint Maarten,3,3,3,True,3,1
+97,Suriname,3,3,3,True,2,2
+97,Togo,3,3,3,True,1,1
+129,French Polynesia,2,5,2,True,3,3
+129,Aruba,2,3,2,True,2,2
+129,Bangladesh,2,3,2,True,2,2
+129,"Bonaire, Sint Eustatius and Saba",2,3,2,True,3,3
+129,Bulgaria,2,3,2,True,2,2
+129,Cambodia,2,3,2,True,1,1
+129,Georgia,2,3,2,True,1,1
+129,Honduras,2,3,2,True,3,3
+129,New Caledonia,2,3,2,True,2,2
+129,Papua New Guinea,2,3,2,True,2,2
+129,Ukraine,2,3,2,True,1,1
+129,American Samoa,2,2,2,True,1,1
+129,Cayman Islands,2,2,2,True,2,2
+129,"Congo, Rep.",2,2,2,True,1,1
+129,Croatia,2,2,2,True,2,2
+129,Dominica,2,2,2,True,2,1
+129,Faroe Islands,2,2,2,True,2,2
+129,Haiti,2,2,2,True,2,2
+129,Kiribati,2,2,2,True,2,2
+129,Mauritania,2,2,2,True,2,2
+129,Monaco,2,2,2,True,2,1
+129,Namibia,2,2,2,True,1,1
+129,Palau,2,2,2,True,1,1
+129,Saint Lucia,2,2,2,True,2,1
+129,Sao Tome and Principe,2,2,2,True,1,1
+129,Tonga,2,2,2,True,2,2
+129,Uganda,2,2,2,True,2,1
+156,Christmas Island,1,4,1,True,1,1
+156,Solomon Islands,1,2,1,True,2,2
+156,Vanuatu,1,2,1,True,1,1
+156,Anguilla,1,1,1,True,1,1
+156,Azerbaijan,1,1,1,True,1,1
+156,Belize,1,1,1,True,1,1
+156,British Indian Ocean Territory,1,1,1,True,1,1
+156,Cocos (Keeling) Islands,1,1,1,True,1,1
+156,Cook Islands,1,1,1,True,2,2
+156,Gambia,1,1,1,True,1,1
+156,Gibraltar,1,1,1,True,1,1
+156,Greenland,1,1,1,True,2,2
+156,Guinea,1,1,1,True,1,1
+156,Guinea-Bissau,1,1,1,True,1,1
+156,Kazakhstan,1,1,1,True,1,1
+156,Liberia,1,1,1,True,1,1
+156,Marshall Islands,1,1,1,True,2,2
+156,Montserrat,1,1,1,True,1,1
+156,Nauru,1,1,1,True,1,1
+156,Nicaragua,1,1,1,True,2,2
+156,Niue,1,1,1,True,1,1
+156,Poland,1,1,1,True,1,1
+156,Romania,1,1,1,True,1,1
+156,"Saint Helena, Ascension and Tristan da Cunha",1,1,1,True,1,1
+156,Saint Pierre and Miquelon,1,1,1,True,2,1
+156,Sierra Leone,1,1,1,True,1,1
+156,Tokelau,1,1,1,True,1,1
+156,Turks and Caicos Islands,1,1,1,True,1,1
+156,Wallis and Futuna,1,1,1,True,2,2

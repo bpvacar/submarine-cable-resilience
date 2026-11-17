@@ -53,7 +53,10 @@ class CableNetwork:
     landings: dict[str, set[str]]  # cable id -> regions it lands in
 
 
-def load_network(data_dir: Path = DATA_DIR, include_planned: bool = False) -> CableNetwork:
+def load_network(data_dir: Path = DATA_DIR, include_planned: bool = False,
+                 split_us: bool = True) -> CableNetwork:
+    """``split_us=False`` keeps TeleGeography's countries as they are, so
+    Alaska, Hawaii and Puerto Rico are part of "United States"."""
     names = {}
     with open(data_dir / "cables.csv", encoding="utf-8") as f:
         for row in csv.DictReader(f):
@@ -66,6 +69,7 @@ def load_network(data_dir: Path = DATA_DIR, include_planned: bool = False) -> Ca
             if row["cable_id"] in names:
                 landings[row["cable_id"]].add(
                     region_of(row["country"], row["landing_point_name"])
+                    if split_us else row["country"]
                 )
     return CableNetwork(names, dict(landings))
 

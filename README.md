@@ -109,39 +109,55 @@ Full text output per country in [`results/`](results/).
 
 ### Most resilient country in the world
 
-Same measure, run for all 184 regions with a submarine route to the
-contiguous US (`python -m cableflow.world`, full table in
-[`results/world_ranking.csv`](results/world_ranking.csv)). The last two
+`python -m cableflow.world` ranks every country two ways. Full tables in
+[`results/world_ranking_all.csv`](results/world_ranking_all.csv) and
+[`results/world_ranking_us.csv`](results/world_ranking_us.csv). The last two
 columns count landing stations and sites (stations within 25 km) instead of
 cables, from [`cableflow.cuts`](docs/cuts.md).
 
-| Rank | Country | Min cut (cables) | With planned | Cables landing | Unique cut | Stations | Sites ≤ 25 km |
-|---:|---|---:|---:|---:|---|---:|---:|
-| 1 | Singapore | 27 | 39 | 34 | yes | 6 | 1 |
-| 2 | France | 24 | 29 | 24 | no | 13 | 12 |
-| 3 | Japan | 23 | 31 | 24 | no | 15 | 10 |
-| 3 | Indonesia | 23 | 30 | 23 | yes | 15 | 11 |
-| 3 | United Kingdom | 23 | 26 | 51 | yes | 15 | 13 |
-| 6 | Malaysia | 20 | 29 | 20 | no | 8 | 8 |
-| 7 | Egypt | 16 | 22 | 17 | yes | 7 | 6 |
-| 7 | India | 16 | 21 | 16 | yes | 7 | 7 |
-| 7 | United Arab Emirates | 16 | 19 | 17 | no | 5 | 4 |
-| 7 | China | 16 | 18 | 16 | yes | 15 | 8 |
+**Disconnected from every other country.** The sink is a super-node joined to
+all other countries with capacity ∞. Countries are TeleGeography's, so Alaska,
+Hawaii and Puerto Rico count as the US.
 
-By cables, Singapore is the most resilient. The result depends on what fails:
+| Rank | Country | Min cut (cables) | With planned | Stations | Sites ≤ 25 km |
+|---:|---|---:|---:|---:|---:|
+| 1 | United States | 59 | 82 | 45 | 27 |
+| 2 | United Kingdom | 51 | 56 | 28 | 19 |
+| 3 | Singapore | 34 | 47 | 6 | 1 |
+| 4 | Italy | 27 | 32 | 14 | 13 |
+| 5 | Japan | 24 | 33 | 15 | 10 |
+| 5 | France | 24 | 29 | 13 | 12 |
+| 7 | Indonesia | 23 | 30 | 15 | 11 |
+| 8 | Denmark | 22 | 26 | 19 | 10 |
+| 8 | Sweden | 22 | 26 | 21 | 14 |
+| 10 | Malaysia | 20 | 29 | 8 | 8 |
 
-- **Stations.** Singapore's 34 cables land at only 8 stations, 18 of them at
-  Tuas, so 6 stations disconnect it. By stations the top is the UK, Japan,
-  Indonesia and China (15 each).
-- **Sites.** At 25 km, Singapore's stations chain into one site
-  (Tuas–Sakra–city–Katong–Tanah Merah–Changi), so a single local event cuts it.
-  Single linkage exaggerates this, but the island is about 50 km wide.
-- **Every cable weighs 1.** The data has no capacity, so a regional cable to
-  Batam counts the same as a trans-Pacific one.
-- **Transit is free.** Most of Singapore's routes reach the US through Japan,
-  Europe or the Middle East. The model assumes those countries and their
-  backbones never fail, and ignores land links (Singapore–Malaysia), which
-  would only raise the cut.
+**Disconnected from the contiguous US** (the measure of questions 1 and 2).
+
+| Rank | Country | Min cut (cables) | With planned | Cables landing | Stations | Sites ≤ 25 km |
+|---:|---|---:|---:|---:|---:|---:|
+| 1 | Singapore | 27 | 39 | 34 | 6 | 1 |
+| 2 | France | 24 | 29 | 24 | 13 | 12 |
+| 3 | Japan | 23 | 31 | 24 | 15 | 10 |
+| 3 | Indonesia | 23 | 30 | 23 | 15 | 11 |
+| 3 | United Kingdom | 23 | 26 | 51 | 15 | 13 |
+
+Why the answer should not be taken at face value:
+
+- **Against the whole world, max-flow adds nothing.** Every international
+  cable reaches another country directly, so each one is a route of its own
+  and the minimum cut is always the country's own international cables. This
+  holds for all 184 countries (checked in `cut_is_own_cables` and in the
+  tests). The ranking is just a count of cables.
+- **Places fail, not cables.** Singapore's 34 cables land at 8 stations, 18
+  of them at Tuas: 6 stations isolate it, and at 25 km all of them chain into
+  one site. The US and the UK stay on top by stations and sites.
+- **Every cable weighs 1.** The data has no capacity, so a short cable to a
+  neighbor counts the same as a transatlantic one.
+- **Transit is free and land does not exist.** Routes through other countries
+  assume those countries never fail, and land links (US–Canada–Mexico,
+  Singapore–Malaysia, the European grid) are ignored. For a large country on
+  a continent, being cut off by sea does not cut it off from the Internet.
 
 ## Data
 
