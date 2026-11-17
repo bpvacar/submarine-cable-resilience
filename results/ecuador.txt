@@ -1,0 +1,20 @@
+Ecuador -> United States
+Cables landing in Ecuador: 4
+  Pacific Caribbean Cable System (PCCS)
+  PanAm South
+  South America-1 (SAm-1)
+  South Pacific Cable System (SPCS)/Mistral
+
+Max flow = min cut = 4
+
+Cable-disjoint routes (one flow decomposition):
+  1. Ecuador -> [Pacific Caribbean Cable System (PCCS)] -> United States
+  2. Ecuador -> [PanAm South] -> Panama -> [ARCOS] -> United States
+  3. Ecuador -> [South America-1 (SAm-1)] -> United States
+  4. Ecuador -> [South Pacific Cable System (SPCS)/Mistral] -> Chile -> [Curie] -> United States
+
+Minimum cut closest to the source:
+  Pacific Caribbean Cable System (PCCS)
+  PanAm South
+  South America-1 (SAm-1)
+  South Pacific Cable System (SPCS)/Mistral
