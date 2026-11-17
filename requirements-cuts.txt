@@ -1,0 +1,6 @@
+# Dependencias extra de cableflow.cuts (añadir a requirements.txt si no están)
+pandas>=2.0
+networkx>=3.0      # solo en tests, para comparar con el Edmonds–Karp propio
+matplotlib>=3.7    # scripts/plot_cut_map.py y scripts/sweep_cluster_radius.py
+tabulate>=0.9      # DataFrame.to_markdown en scripts/compare_countries.py
+pytest>=7

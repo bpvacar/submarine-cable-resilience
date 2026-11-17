@@ -1,0 +1,5 @@
+country,planned,cables,cables_unique,stations,stations_unique,stations_cut,sites,sites_unique,external,gap_cables_minus_sites
+Ecuador,False,4,True,3,True,"Manta, Ecuador; Punta Carnero, Ecuador; Salinas, Ecuador",2,True,,2
+Israel,False,4,True,2,True,"Tel Aviv, Israel; Tirat Carmel, Israel",2,True,26.0,2
+Ecuador,True,5,True,4,True,"Ancon, Ecuador; Manta, Ecuador; Punta Carnero, Ecuador; Salinas, Ecuador",2,True,,3
+Israel,True,7,True,5,True,"Ashkelon, Israel; Haifa, Israel; Netanya, Israel; Tel Aviv, Israel; Tirat Carmel, Israel",3,True,37.0,4
