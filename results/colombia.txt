@@ -1,0 +1,29 @@
+Colombia -> United States
+Cables landing in Colombia: 7
+  ARCOS
+  America Movil Submarine Cable System-1 (AMX-1)
+  Colombia-Florida Express (CFX-1)
+  GlobeNet
+  Pacific Caribbean Cable System (PCCS)
+  South America-1 (SAm-1)
+  South American Crossing (SAC)
+
+Max flow = min cut = 7
+
+Cable-disjoint routes (one flow decomposition):
+  1. Colombia -> [America Movil Submarine Cable System-1 (AMX-1)] -> United States
+  2. Colombia -> [ARCOS] -> United States
+  3. Colombia -> [Colombia-Florida Express (CFX-1)] -> United States
+  4. Colombia -> [GlobeNet] -> United States
+  5. Colombia -> [Pacific Caribbean Cable System (PCCS)] -> United States
+  6. Colombia -> [South America-1 (SAm-1)] -> United States
+  7. Colombia -> [South American Crossing (SAC)] -> Argentina -> [Firmina] -> United States
+
+Minimum cut closest to the source:
+  ARCOS
+  America Movil Submarine Cable System-1 (AMX-1)
+  Colombia-Florida Express (CFX-1)
+  GlobeNet
+  Pacific Caribbean Cable System (PCCS)
+  South America-1 (SAm-1)
+  South American Crossing (SAC)

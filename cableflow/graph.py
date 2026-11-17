@@ -77,13 +77,16 @@ def region(name: str):
 def build_flow_graph(net: CableNetwork) -> dict:
     """Capacity map ``cap[u][v]``. Nodes are ``("region", name)``,
     ``("in", cable_id)`` and ``("out", cable_id)``."""
+    # Sorted so BFS order, and therefore the routes and cuts reported, do not
+    # depend on Python's per-process set ordering.
     cap = defaultdict(dict)
-    for cable_id, regions in net.landings.items():
+    for cable_id in sorted(net.landings):
+        regions = net.landings[cable_id]
         if len(regions) < 2:
             continue  # stays inside one region: cannot carry traffic between regions
         c_in, c_out = ("in", cable_id), ("out", cable_id)
         cap[c_in][c_out] = 1
-        for r in regions:
+        for r in sorted(regions):
             cap[region(r)][c_in] = INF
             cap[c_out][region(r)] = INF
     return dict(cap)

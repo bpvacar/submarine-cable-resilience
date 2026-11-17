@@ -1,0 +1,20 @@
+Venezuela -> United States
+Cables landing in Venezuela: 4
+  ALBA-1
+  ARCOS
+  GlobeNet
+  South American Crossing (SAC)
+
+Max flow = min cut = 4
+
+Cable-disjoint routes (one flow decomposition):
+  1. Venezuela -> [ALBA-1] -> Cuba -> [GTMO-1] -> United States
+  2. Venezuela -> [ARCOS] -> United States
+  3. Venezuela -> [GlobeNet] -> United States
+  4. Venezuela -> [South American Crossing (SAC)] -> Argentina -> [Firmina] -> United States
+
+Minimum cut closest to the source:
+  ALBA-1
+  ARCOS
+  GlobeNet
+  South American Crossing (SAC)

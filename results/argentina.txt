@@ -1,0 +1,25 @@
+Argentina -> United States
+Cables landing in Argentina: 7
+  Bicentenario
+  Firmina
+  Malbec
+  South America-1 (SAm-1)
+  South American Crossing (SAC)
+  Tannat
+  Unisur
+
+Max flow = min cut = 5
+
+Cable-disjoint routes (one flow decomposition):
+  1. Argentina -> [Firmina] -> United States
+  2. Argentina -> [Malbec] -> Brazil -> [America Movil Submarine Cable System-1 (AMX-1)] -> United States
+  3. Argentina -> [South America-1 (SAm-1)] -> United States
+  4. Argentina -> [South American Crossing (SAC)] -> Brazil -> [BRUSA] -> United States
+  5. Argentina -> [Tannat] -> Brazil -> [GlobeNet] -> United States
+
+Minimum cut closest to the source:
+  Firmina
+  Malbec
+  South America-1 (SAm-1)
+  South American Crossing (SAC)
+  Tannat

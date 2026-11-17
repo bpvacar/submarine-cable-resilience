@@ -1,0 +1,17 @@
+Peru -> United States
+Cables landing in Peru: 3
+  South America-1 (SAm-1)
+  South American Crossing (SAC)
+  South Pacific Cable System (SPCS)/Mistral
+
+Max flow = min cut = 3
+
+Cable-disjoint routes (one flow decomposition):
+  1. Peru -> [South America-1 (SAm-1)] -> United States
+  2. Peru -> [South American Crossing (SAC)] -> Argentina -> [Firmina] -> United States
+  3. Peru -> [South Pacific Cable System (SPCS)/Mistral] -> Chile -> [Curie] -> United States
+
+Minimum cut closest to the source:
+  South America-1 (SAm-1)
+  South American Crossing (SAC)
+  South Pacific Cable System (SPCS)/Mistral

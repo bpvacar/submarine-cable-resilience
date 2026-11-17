@@ -1,0 +1,43 @@
+Brazil -> United States
+Cables landing in Brazil: 13
+  America Movil Submarine Cable System-1 (AMX-1)
+  BRUSA
+  EllaLink
+  Firmina
+  GlobeNet
+  Malbec
+  Monet
+  Seabras-1
+  South America-1 (SAm-1)
+  South American Crossing (SAC)
+  South Atlantic Cable System (SACS)
+  South Atlantic Inter Link (SAIL)
+  Tannat
+
+Max flow = min cut = 11
+
+Cable-disjoint routes (one flow decomposition):
+  1. Brazil -> [America Movil Submarine Cable System-1 (AMX-1)] -> United States
+  2. Brazil -> [BRUSA] -> United States
+  3. Brazil -> [EllaLink] -> Spain -> [Anjana] -> United States
+  4. Brazil -> [Firmina] -> United States
+  5. Brazil -> [GlobeNet] -> United States
+  6. Brazil -> [Monet] -> United States
+  7. Brazil -> [Seabras-1] -> United States
+  8. Brazil -> [South America-1 (SAm-1)] -> United States
+  9. Brazil -> [South American Crossing (SAC)] -> Chile -> [Curie] -> United States
+  10. Brazil -> [South Atlantic Cable System (SACS)] -> Angola -> [2Africa] -> France -> [Amitie] -> United States
+  11. Brazil -> [South Atlantic Inter Link (SAIL)] -> Cameroon -> [SAT-3/WASC] -> Spain -> [Grace Hopper] -> United States
+
+Minimum cut closest to the source:
+  America Movil Submarine Cable System-1 (AMX-1)
+  BRUSA
+  EllaLink
+  Firmina
+  GlobeNet
+  Monet
+  Seabras-1
+  South America-1 (SAm-1)
+  South American Crossing (SAC)
+  South Atlantic Cable System (SACS)
+  South Atlantic Inter Link (SAIL)

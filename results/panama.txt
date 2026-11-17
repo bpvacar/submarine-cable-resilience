@@ -1,0 +1,26 @@
+Panama -> United States
+Cables landing in Panama: 6
+  ARCOS
+  Curie
+  Pacific Caribbean Cable System (PCCS)
+  Pan-American Crossing (PAC)
+  PanAm South
+  South American Crossing (SAC)
+
+Max flow = min cut = 6
+
+Cable-disjoint routes (one flow decomposition):
+  1. Panama -> [ARCOS] -> United States
+  2. Panama -> [Curie] -> United States
+  3. Panama -> [Pacific Caribbean Cable System (PCCS)] -> United States
+  4. Panama -> [Pan-American Crossing (PAC)] -> United States
+  5. Panama -> [PanAm South] -> Ecuador -> [South America-1 (SAm-1)] -> United States
+  6. Panama -> [South American Crossing (SAC)] -> Argentina -> [Firmina] -> United States
+
+Minimum cut closest to the source:
+  ARCOS
+  Curie
+  Pacific Caribbean Cable System (PCCS)
+  Pan-American Crossing (PAC)
+  PanAm South
+  South American Crossing (SAC)

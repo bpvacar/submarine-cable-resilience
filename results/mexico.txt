@@ -1,0 +1,20 @@
+Mexico -> United States
+Cables landing in Mexico: 4
+  ARCOS
+  America Movil Submarine Cable System-1 (AMX-1)
+  Bifrost
+  Pan-American Crossing (PAC)
+
+Max flow = min cut = 4
+
+Cable-disjoint routes (one flow decomposition):
+  1. Mexico -> [America Movil Submarine Cable System-1 (AMX-1)] -> United States
+  2. Mexico -> [ARCOS] -> United States
+  3. Mexico -> [Bifrost] -> United States
+  4. Mexico -> [Pan-American Crossing (PAC)] -> United States
+
+Minimum cut closest to the source:
+  ARCOS
+  America Movil Submarine Cable System-1 (AMX-1)
+  Bifrost
+  Pan-American Crossing (PAC)

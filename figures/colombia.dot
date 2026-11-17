@@ -1,0 +1,47 @@
+graph G {
+  rankdir=LR; newrank=true; splines=true; nodesep=0.18; ranksep=0.9;
+  fontname="Helvetica"; labelloc=t; fontsize=18;
+  label="Colombia → United States: minimum cut = 7 cables";
+  node [fontname="Helvetica", fontsize=12, penwidth=0.8];
+  edge [penwidth=0.8];
+  "R:Argentina" [label="Argentina", shape=box, style="rounded,filled,bold", fillcolor="#E6F1FB", fontsize=14];
+  "R:Colombia" [label="Colombia", shape=box, style="rounded,filled,bold", fillcolor="#CECBF6", fontsize=14];
+  "R:United States" [label="United States", shape=box, style="rounded,filled,bold", fillcolor="#CECBF6", fontsize=14];
+  { rank=min; "R:Colombia"; }
+  { rank=max; "R:United States"; }
+  "C:america-movil-submarine-cable-system-1-amx-1" [label="AMX-1
++6", shape=box, fontsize=10, margin="0.08,0.03", style="filled,bold", fillcolor="#FCEBEB", color="#A32D2D", penwidth=1.6];
+  "C:arcos" [label="ARCOS
++13", shape=box, fontsize=10, margin="0.08,0.03", style="filled,bold", fillcolor="#FCEBEB", color="#A32D2D", penwidth=1.6];
+  "C:colombia-florida-express-cfx-1" [label="CFX-1
++1", shape=box, fontsize=10, margin="0.08,0.03", style="filled,bold", fillcolor="#FCEBEB", color="#A32D2D", penwidth=1.6];
+  "C:firmina" [label="Firmina
++3", shape=box, fontsize=10, margin="0.08,0.03", style=filled, fillcolor="#F1EFE8"];
+  "C:globenet" [label="GlobeNet
++3", shape=box, fontsize=10, margin="0.08,0.03", style="filled,bold", fillcolor="#FCEBEB", color="#A32D2D", penwidth=1.6];
+  "C:pacific-caribbean-cable-system-pccs" [label="PCCS
++6", shape=box, fontsize=10, margin="0.08,0.03", style="filled,bold", fillcolor="#FCEBEB", color="#A32D2D", penwidth=1.6];
+  "C:south-america-1-sam-1" [label="SAm-1
++7", shape=box, fontsize=10, margin="0.08,0.03", style="filled,bold", fillcolor="#FCEBEB", color="#A32D2D", penwidth=1.6];
+  "C:south-american-crossing-sac" [label="SAC
++6", shape=box, fontsize=10, margin="0.08,0.03", style="filled,bold", fillcolor="#FCEBEB", color="#A32D2D", penwidth=1.6];
+  "R:Colombia" -- "C:america-movil-submarine-cable-system-1-amx-1" [color="#0F6E56", penwidth=2.4];
+  "C:america-movil-submarine-cable-system-1-amx-1" -- "R:United States" [color="#0F6E56", penwidth=2.4];
+  "R:Colombia" -- "C:arcos" [color="#0F6E56", penwidth=2.4];
+  "C:arcos" -- "R:United States" [color="#0F6E56", penwidth=2.4];
+  "R:Colombia" -- "C:colombia-florida-express-cfx-1" [color="#0F6E56", penwidth=2.4];
+  "C:colombia-florida-express-cfx-1" -- "R:United States" [color="#0F6E56", penwidth=2.4];
+  "R:Argentina" -- "C:firmina" [color="#0F6E56", penwidth=2.4];
+  "C:firmina" -- "R:United States" [color="#0F6E56", penwidth=2.4];
+  "R:Colombia" -- "C:globenet" [color="#0F6E56", penwidth=2.4];
+  "C:globenet" -- "R:United States" [color="#0F6E56", penwidth=2.4];
+  "R:Colombia" -- "C:pacific-caribbean-cable-system-pccs" [color="#0F6E56", penwidth=2.4];
+  "C:pacific-caribbean-cable-system-pccs" -- "R:United States" [color="#0F6E56", penwidth=2.4];
+  "C:south-america-1-sam-1" -- "R:Argentina" [color="#B4B2A9", style=dashed, constraint=false];
+  "R:Colombia" -- "C:south-america-1-sam-1" [color="#0F6E56", penwidth=2.4];
+  "C:south-america-1-sam-1" -- "R:United States" [color="#0F6E56", penwidth=2.4];
+  "C:south-american-crossing-sac" -- "R:Argentina" [color="#0F6E56", penwidth=2.4];
+  "R:Colombia" -- "C:south-american-crossing-sac" [color="#0F6E56", penwidth=2.4];
+  legend [shape=plaintext, fontsize=10, label=<<TABLE BORDER="0" CELLSPACING="2"><TR><TD ALIGN="LEFT"><FONT COLOR="#0F6E56"><B>━━</B></FONT> route that carries one unit of flow</TD></TR><TR><TD ALIGN="LEFT"><FONT COLOR="#B4B2A9">╍╍</FONT> other landing of the cable</TD></TR><TR><TD ALIGN="LEFT"><FONT COLOR="#A32D2D"><B>▭</B></FONT> cable in the minimum cut</TD></TR><TR><TD ALIGN="LEFT">+k  landings in countries not drawn</TD></TR></TABLE>>];
+  { rank=max; legend; }
+}

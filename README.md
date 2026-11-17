@@ -31,13 +31,20 @@ of cable-disjoint routes and the minimum number of cables that must fail.
 
 ```bash
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
-.venv/bin/python -m cableflow Ecuador
+.venv/bin/python -m cableflow Ecuador                  # one country
 .venv/bin/python -m cableflow Chile --include-planned
+.venv/bin/python -m cableflow.ranking                  # results/ranking.{csv,md}
+.venv/bin/python -m cableflow.figures                  # figures/, needs Graphviz
 .venv/bin/python -m pytest
 ```
 
-Tests cross-check the max-flow against `networkx` on random graphs and on the
-real network for the ten countries in the assignment.
+Figures need the Graphviz `dot` binary (`brew install graphviz` or
+`apt install graphviz`). Tests cross-check the max-flow against `networkx` on
+random graphs and on the real network for the ten countries in the assignment.
+
+The graph is built in sorted order, so every run gives the same routes and
+cuts. The routes are one valid flow decomposition. Other decompositions with
+the same number of routes exist.
 
 ## Results
 
@@ -51,10 +58,54 @@ source-side and sink-side minimum cuts coincide.
 | Ecuador → PCCS → United States |
 | Ecuador → PanAm South → Panama → ARCOS → United States |
 | Ecuador → SAm-1 → United States |
-| Ecuador → SPCS/Mistral → Guatemala → AMX-1 → United States |
+| Ecuador → SPCS/Mistral → Chile → Curie → United States |
 
-With CSN-1 (planned, RFS 2026 Q4) the answer is 5. Full output in
-[`results/`](results/).
+With CSN-1 (planned, RFS 2026 Q4) the answer is 5.
+
+![Ecuador flow hypergraph](figures/ecuador.png)
+
+### Ranking, most to least resilient
+
+Countries with the same minimum cut share a rank. Within a tie, rows are
+ordered by the minimum cut with planned cables, which does not change the rank.
+Every minimum cut in the table is unique.
+
+| Rank | Country | Min cut | With planned | Cables landing | Minimum cut (closest to source) |
+|---:|---|---:|---:|---:|---|
+| 1 | Brazil | 11 | 12 | 13 | AMX-1; BRUSA; EllaLink; Firmina; GlobeNet; Monet; SAC; SACS; SAIL; SAm-1; Seabras-1 |
+| 2 | Colombia | 7 | 10 | 7 | AMX-1; ARCOS; CFX-1; GlobeNet; PCCS; SAC; SAm-1 |
+| 3 | Panama | 6 | 10 | 6 | ARCOS; Curie; PAC; PCCS; PanAm South; SAC |
+| 4 | Argentina | 5 | 5 | 7 | Firmina; Malbec; SAC; SAm-1; Tannat |
+| 5 | Mexico | 4 | 8 | 4 | AMX-1; ARCOS; Bifrost; PAC |
+| 5 | Chile | 4 | 6 | 4 | Curie; SAC; SAm-1; SPCS/Mistral |
+| 5 | Ecuador | 4 | 5 | 4 | PCCS; PanAm South; SAm-1; SPCS/Mistral |
+| 5 | Venezuela | 4 | 5 | 4 | ALBA-1; ARCOS; GlobeNet; SAC |
+| 5 | Uruguay | 4 | 4 | 4 | Bicentenario; Firmina; Tannat; Unisur |
+| 10 | Peru | 3 | 3 | 3 | SAC; SAm-1; SPCS/Mistral |
+
+Argentina and Brazil are the only countries whose minimum cut is smaller than
+their number of cables. Some of their cables (Bicentenario and Unisur for
+Argentina, Malbec and Tannat for Brazil) only reach neighbors whose own exits
+are already used, so they add no extra route. Uruguay's
+minimum cut includes Bicentenario and Unisur, which only go to Argentina.
+
+### Hypergraphs
+
+Each cable is a hyperedge drawn as its incidence graph: a box linked to every
+drawn country it lands in. Green lines are the cable-disjoint routes, red boxes
+are the cables in the minimum cut, dashed lines are other landings, and `+k`
+counts landings in countries not drawn. Every figure is in
+[`figures/`](figures/) as PNG, SVG, PDF and Graphviz source.
+
+| | |
+|---|---|
+| ![Brazil](figures/brazil.png) | ![Colombia](figures/colombia.png) |
+| ![Panama](figures/panama.png) | ![Argentina](figures/argentina.png) |
+| ![Mexico](figures/mexico.png) | ![Chile](figures/chile.png) |
+| ![Venezuela](figures/venezuela.png) | ![Uruguay](figures/uruguay.png) |
+| ![Peru](figures/peru.png) | |
+
+Full text output per country in [`results/`](results/).
 
 ## Data
 
