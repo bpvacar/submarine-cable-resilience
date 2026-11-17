@@ -82,7 +82,9 @@ def real_graph():
 
 @pytest.mark.parametrize(
     "country",
-    ["Ecuador", "Colombia", "Peru", "Chile", "Argentina", "Uruguay", "Brazil", "Venezuela", "Panama", "Mexico"],
+    ["Ecuador", "Colombia", "Peru", "Chile", "Argentina", "Uruguay", "Brazil", "Venezuela", "Panama", "Mexico",
+     # top of the world ranking (question 3)
+     "Singapore", "France", "Japan", "Indonesia", "United Kingdom"],
 )
 def test_real_data_matches_networkx(country):
     cap, g = real_graph()

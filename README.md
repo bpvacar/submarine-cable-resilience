@@ -107,6 +107,42 @@ counts landings in countries not drawn. Every figure is in
 
 Full text output per country in [`results/`](results/).
 
+### Most resilient country in the world
+
+Same measure, run for all 184 regions with a submarine route to the
+contiguous US (`python -m cableflow.world`, full table in
+[`results/world_ranking.csv`](results/world_ranking.csv)). The last two
+columns count landing stations and sites (stations within 25 km) instead of
+cables, from [`cableflow.cuts`](docs/cuts.md).
+
+| Rank | Country | Min cut (cables) | With planned | Cables landing | Unique cut | Stations | Sites ≤ 25 km |
+|---:|---|---:|---:|---:|---|---:|---:|
+| 1 | Singapore | 27 | 39 | 34 | yes | 6 | 1 |
+| 2 | France | 24 | 29 | 24 | no | 13 | 12 |
+| 3 | Japan | 23 | 31 | 24 | no | 15 | 10 |
+| 3 | Indonesia | 23 | 30 | 23 | yes | 15 | 11 |
+| 3 | United Kingdom | 23 | 26 | 51 | yes | 15 | 13 |
+| 6 | Malaysia | 20 | 29 | 20 | no | 8 | 8 |
+| 7 | Egypt | 16 | 22 | 17 | yes | 7 | 6 |
+| 7 | India | 16 | 21 | 16 | yes | 7 | 7 |
+| 7 | United Arab Emirates | 16 | 19 | 17 | no | 5 | 4 |
+| 7 | China | 16 | 18 | 16 | yes | 15 | 8 |
+
+By cables, Singapore is the most resilient. The result depends on what fails:
+
+- **Stations.** Singapore's 34 cables land at only 8 stations, 18 of them at
+  Tuas, so 6 stations disconnect it. By stations the top is the UK, Japan,
+  Indonesia and China (15 each).
+- **Sites.** At 25 km, Singapore's stations chain into one site
+  (Tuas–Sakra–city–Katong–Tanah Merah–Changi), so a single local event cuts it.
+  Single linkage exaggerates this, but the island is about 50 km wide.
+- **Every cable weighs 1.** The data has no capacity, so a regional cable to
+  Batam counts the same as a trans-Pacific one.
+- **Transit is free.** Most of Singapore's routes reach the US through Japan,
+  Europe or the Middle East. The model assumes those countries and their
+  backbones never fail, and ignores land links (Singapore–Malaysia), which
+  would only raise the cut.
+
 ## Data
 
 [`data/`](data/) is a snapshot of TeleGeography's
