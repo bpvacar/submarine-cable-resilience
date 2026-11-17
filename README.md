@@ -132,6 +132,13 @@ Hawaii and Puerto Rico count as the US.
 | 8 | Sweden | 22 | 26 | 21 | 14 |
 | 10 | Malaysia | 20 | 29 | 8 | 8 |
 
+The US hypergraph (`python -m cableflow.figures --world "United States"`)
+shows why the cut is trivial: each of the 59 cables is a route on its own, to
+the first other country it lands in. Which landing each route uses is
+arbitrary; any of them would do.
+
+![United States against every other country](figures/united_states_world.png)
+
 **Disconnected from the contiguous US** (the measure of questions 1 and 2).
 
 | Rank | Country | Min cut (cables) | With planned | Cables landing | Stations | Sites ≤ 25 km |

@@ -2,6 +2,7 @@
 
     python -m cableflow.figures              # all ten countries
     python -m cableflow.figures Ecuador      # just one
+    python -m cableflow.figures --world "United States"   # against every other country
 
 Writes figures/<country>.{dot,svg,png,pdf}. Requires the Graphviz `dot`
 binary (brew install graphviz / apt install graphviz).
@@ -19,8 +20,10 @@ import sys
 from pathlib import Path
 
 from .analysis import COUNTRIES, SINK, analyze
-from .graph import load_network
+from .graph import INF, build_flow_graph, load_network, region
+from .maxflow import decompose_paths, max_flow
 from .ranking import short_name
+from .world import SUPER_SINK
 
 FIGURES = Path(__file__).resolve().parent.parent / "figures"
 
@@ -105,21 +108,90 @@ def to_dot(r):
     return "\n".join(out)
 
 
-def render(country, net, out_dir=FIGURES):
-    out_dir.mkdir(exist_ok=True)
-    r = analyze(country, SINK, net=net)
-    stem = out_dir / country.lower().replace(" ", "_")
+def world_to_dot(country, net):
+    """Hypergraph of `country` against every other country (question 3).
+
+    Every international cable of `country` is in the minimum cut and carries
+    one unit of flow to the first other country it reaches. Only those
+    countries are drawn; "+k" counts the cable's other landings."""
+    cap = build_flow_graph(net)
+    for r in {r for lands in net.landings.values() for r in lands} - {country}:
+        if region(r) in cap:
+            cap[region(r)][SUPER_SINK] = INF
+    value, flow, _ = max_flow(cap, region(country), SUPER_SINK)
+    dest = {}  # cable id -> country its unit of flow goes to
+    for _, path in decompose_paths(flow, region(country), SUPER_SINK):
+        dest[path[1][1]] = path[3][1]  # region -> in -> out -> region -> sink
+    countries = sorted(set(dest.values()))
+
+    out = [
+        "graph G {",
+        '  rankdir=LR; newrank=true; splines=true; nodesep=0.08; ranksep=1.6;',
+        '  fontname="Helvetica"; labelloc=t; fontsize=20;',
+        f'  label={q(f"{country} → every other country: minimum cut = {value} cables")};',
+        '  node [fontname="Helvetica", fontsize=12, penwidth=0.8];',
+        f'  {q("R:" + country)} [label={q(country)}, shape=box, style="rounded,filled,bold", '
+        f'fillcolor="{ENDPOINT_FILL}", fontsize=16];',
+        f'  world [label="Rest of the world\\n(super-sink)", shape=box, style="rounded,filled,bold", '
+        f'fillcolor="{ENDPOINT_FILL}", fontsize=16];',
+        f'  {{ rank=min; {q("R:" + country)}; }}',
+        '  { rank=max; world; }',
+    ]
+    for c in countries:
+        out.append(f'  {q("R:" + c)} [label={q(c)}, shape=box, style="rounded,filled", '
+                   f'fillcolor="{COUNTRY_FILL}", fontsize=11];')
+        out.append(f'  {q("R:" + c)} -- world [color="{OTHER}", penwidth=0.6];')
+    # Group cables by destination so the green lines do not cross.
+    for cid in sorted(dest, key=lambda c: (dest[c], short_name(net.names[c]))):
+        hidden = len(net.landings[cid]) - 2
+        label = short_name(net.names[cid]) + (f"  +{hidden}" if hidden else "")
+        C = q("C:" + cid)
+        out.append(f'  {C} [label={q(label)}, shape=box, fontsize=9, margin="0.06,0.02", '
+                   f'style="filled,bold", fillcolor="{CUT_FILL}", color="{CUT_LINE}", penwidth=1.2];')
+        out.append(f'  {q("R:" + country)} -- {C} [color="{FLOW}", penwidth=1.4];')
+        out.append(f'  {C} -- {q("R:" + dest[cid])} [color="{FLOW}", penwidth=1.4];')
+    out.append(
+        '  legend [shape=plaintext, fontsize=11, label=<'
+        '<TABLE BORDER="0" CELLSPACING="2">'
+        f'<TR><TD ALIGN="LEFT"><FONT COLOR="{FLOW}"><B>━━</B></FONT> route that carries one unit of flow</TD></TR>'
+        f'<TR><TD ALIGN="LEFT"><FONT COLOR="{CUT_LINE}"><B>▭</B></FONT> cable in the minimum cut (all of them)</TD></TR>'
+        '<TR><TD ALIGN="LEFT">+k  other landings of the cable, not drawn</TD></TR>'
+        f'<TR><TD ALIGN="LEFT"><FONT COLOR="{OTHER}">━━</FONT> capacity ∞ to the super-sink</TD></TR>'
+        '</TABLE>>];'
+    )
+    out.append('  { rank=max; legend; }')
+    out.append("}")
+    return "\n".join(out)
+
+
+def write(stem, dot):
+    stem.parent.mkdir(exist_ok=True)
     dot_path = stem.with_suffix(".dot")
-    dot_path.write_text(to_dot(r), encoding="utf-8")
+    dot_path.write_text(dot, encoding="utf-8")
     for fmt, extra in (("svg", []), ("pdf", []), ("png", ["-Gdpi=150"])):
         subprocess.run(["dot", f"-T{fmt}", *extra, str(dot_path), "-o", str(stem.with_suffix("." + fmt))],
                        check=True)
     return stem
 
 
+def render_world(country, out_dir=FIGURES):
+    net = load_network(split_us=False)
+    return write(out_dir / (country.lower().replace(" ", "_") + "_world"), world_to_dot(country, net))
+
+
+def render(country, net, out_dir=FIGURES):
+    r = analyze(country, SINK, net=net)
+    return write(out_dir / country.lower().replace(" ", "_"), to_dot(r))
+
+
 def main():
+    args = sys.argv[1:]
+    if args[:1] == ["--world"]:
+        for country in args[1:] or ["United States"]:
+            print(render_world(country).with_suffix(".png"))
+        return
     net = load_network()
-    for country in sys.argv[1:] or COUNTRIES:
+    for country in args or COUNTRIES:
         print(render(country, net).with_suffix(".png"))
 
 
